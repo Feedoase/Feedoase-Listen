@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "version": "2026.11.19.1731",
+  "version": "2026.11.19.2006",
   "name": "Zentrale Sperrliste von Feedoase (Startfassung)",
   "categories": {
     "partei": "Parteien",
@@ -40,6 +40,28 @@
       "domains": [
         "afd.de",
         "afdbundestag.de"
+      ]
+    },
+    {
+      "id": "fdp",
+      "name": "FDP",
+      "category": "partei",
+      "keys": [
+        "ig:u:fdp"
+      ],
+      "namePatterns": [
+        "^FDP\\b",
+        {
+          "pattern": "^Freie Demokraten\\b",
+          "flags": "i"
+        },
+        {
+          "pattern": "^Junge Liberale\\b",
+          "flags": "i"
+        }
+      ],
+      "domains": [
+        "fdp.de"
       ]
     },
     {
@@ -115,6 +137,26 @@
       ]
     },
     {
+      "id": "nzz",
+      "name": "NZZ",
+      "category": "medium",
+      "keys": [
+        "ig:u:nzz",
+        "ig:u:nzz_de"
+      ],
+      "namePatterns": [
+        "^NZZ\\b",
+        {
+          "pattern": "^Neue Zürcher Zeitung\\b",
+          "flags": "i"
+        }
+      ],
+      "domains": [
+        "nzz.ch",
+        "nzz.de"
+      ]
+    },
+    {
       "id": "politico",
       "name": "POLITICO",
       "category": "medium",
@@ -144,6 +186,82 @@
       ],
       "domains": [
         "promiflash.de"
+      ]
+    },
+    {
+      "id": "prosieben",
+      "name": "ProSieben",
+      "category": "medium",
+      "keys": [
+        "ig:u:prosieben"
+      ],
+      "namePatterns": [
+        {
+          "pattern": "^(ProSieben|Pro ?7)\\b",
+          "flags": "i"
+        }
+      ],
+      "domains": [
+        "prosieben.de"
+      ]
+    },
+    {
+      "id": "rtl",
+      "name": "RTL",
+      "category": "medium",
+      "keys": [
+        "ig:u:rtl_de",
+        "ig:u:rtlhessen",
+        "ig:u:rtlnord",
+        "ig:u:rtlwest"
+      ],
+      "namePatterns": [
+        "^RTL$",
+        {
+          "pattern": "^RTL (Nord|Süd|Ost|West|Hessen)\\b",
+          "flags": "i"
+        }
+      ],
+      "domains": [
+        "rtl.de"
+      ]
+    },
+    {
+      "id": "rtlzwei",
+      "name": "RTLZWEI",
+      "category": "medium",
+      "keys": [
+        "ig:u:rtlzwei"
+      ],
+      "namePatterns": [
+        {
+          "pattern": "^RTL ?(ZWEI|II|2)\\b",
+          "flags": "i"
+        }
+      ],
+      "domains": [
+        "rtl2.de"
+      ]
+    },
+    {
+      "id": "sat1",
+      "name": "SAT.1",
+      "category": "medium",
+      "keys": [
+        "ig:u:sat.1",
+        "ig:u:sat1bayern",
+        "ig:u:sat1nrw",
+        "ig:u:sat1regional"
+      ],
+      "namePatterns": [
+        {
+          "pattern": "^SAT\\.? ?1\\b",
+          "flags": "i"
+        }
+      ],
+      "domains": [
+        "sat1.de",
+        "sat1regional.de"
       ]
     },
     {
@@ -880,6 +998,20 @@
       ]
     },
     {
+      "id": "neverforgetniki",
+      "name": "Neverforgetniki",
+      "category": "onlinekanaele",
+      "keys": [
+        "ig:u:neverforgetniki"
+      ],
+      "namePatterns": [
+        {
+          "pattern": "^Neverforgetniki\\b",
+          "flags": "i"
+        }
+      ]
+    },
+    {
       "id": "p-alexander-dobrindt",
       "name": "Alexander Dobrindt",
       "category": "politiker",
@@ -1090,6 +1222,17 @@
       "category": "politiker",
       "names": [
         "Frank-Christian Hansel"
+      ]
+    },
+    {
+      "id": "p-frauke-petry",
+      "name": "Frauke Petry",
+      "category": "politiker",
+      "keys": [
+        "ig:u:frauke.official"
+      ],
+      "names": [
+        "Frauke Petry"
       ]
     },
     {
@@ -1319,6 +1462,9 @@
       "category": "politiker",
       "names": [
         "Leif-Erik Holm"
+      ],
+      "keys": [
+        "ig:u:holmleiferik"
       ]
     },
     {
@@ -1770,6 +1916,18 @@
       ]
     },
     {
+      "id": "p-ralf-moeller",
+      "name": "Ralf Moeller",
+      "category": "fernsehen",
+      "keys": [
+        "ig:u:ralf.moeller"
+      ],
+      "names": [
+        "Ralf Moeller",
+        "Ralf Möller"
+      ]
+    },
+    {
       "id": "seinfeld",
       "name": "Seinfeld",
       "category": "fernsehen",
@@ -1786,11 +1944,34 @@
       "domains": []
     },
     {
+      "id": "p-sylvie-meis",
+      "name": "Sylvie Meis",
+      "category": "fernsehen",
+      "keys": [
+        "ig:u:sylviemeis"
+      ],
+      "names": [
+        "Sylvie Meis",
+        "Sylvie van der Vaart"
+      ]
+    },
+    {
       "id": "p-thomas-gottschalk",
       "name": "Thomas Gottschalk",
       "category": "fernsehen",
       "names": [
         "Thomas Gottschalk"
+      ]
+    },
+    {
+      "id": "p-wayne-carpendale",
+      "name": "Wayne Carpendale",
+      "category": "fernsehen",
+      "keys": [
+        "ig:u:wayne_interessiert_s"
+      ],
+      "names": [
+        "Wayne Carpendale"
       ]
     },
     {
@@ -1973,6 +2154,18 @@
       ]
     },
     {
+      "id": "p-prinz-harry",
+      "name": "Prinz Harry",
+      "category": "boulevard",
+      "keys": [
+        "ig:u:sussexroyal"
+      ],
+      "names": [
+        "Prinz Harry",
+        "Prince Harry"
+      ]
+    },
+    {
       "id": "p-robert-geiss",
       "name": "Robert Geiss",
       "category": "boulevard",
@@ -2010,6 +2203,14 @@
       "category": "boulevard",
       "names": [
         "Verona Pooth"
+      ]
+    },
+    {
+      "id": "4rtur-ai",
+      "name": "4rtur_ai",
+      "category": "influencer",
+      "keys": [
+        "ig:u:4rtur_ai"
       ]
     },
     {
@@ -2085,6 +2286,17 @@
       "category": "influencer",
       "names": [
         "Katja Krasavice"
+      ]
+    },
+    {
+      "id": "p-kristian-beara",
+      "name": "Kristian Beara",
+      "category": "influencer",
+      "keys": [
+        "fb:u:kristianbeara"
+      ],
+      "names": [
+        "Kristian Beara"
       ]
     },
     {
@@ -2378,6 +2590,15 @@
       ]
     },
     {
+      "id": "p-itamar-ben-gvir",
+      "name": "Itamar Ben-Gvir",
+      "category": "international",
+      "names": [
+        "Itamar Ben-Gvir",
+        "Itamar Ben Gvir"
+      ]
+    },
+    {
       "id": "p-ivanka-trump",
       "name": "Ivanka Trump",
       "category": "international",
@@ -2651,7 +2872,9 @@
   ],
   "hashed": {
     "salt": "mir-reichts-v1",
-    "items": []
+    "items": [
+      "7387945a7e5f13cd"
+    ]
   },
   "wordLists": [
     {
@@ -2666,6 +2889,14 @@
         },
         {
           "text": "Alternative für Deutschland",
+          "mode": "exact"
+        },
+        {
+          "text": "FDP",
+          "mode": "exact"
+        },
+        {
+          "text": "Freie Demokraten",
           "mode": "exact"
         }
       ]
@@ -2705,7 +2936,23 @@
           "mode": "exact"
         },
         {
+          "text": "NZZ",
+          "mode": "exact"
+        },
+        {
           "text": "Politico",
+          "mode": "exact"
+        },
+        {
+          "text": "ProSieben",
+          "mode": "exact"
+        },
+        {
+          "text": "RTLZWEI",
+          "mode": "exact"
+        },
+        {
+          "text": "SAT.1",
           "mode": "exact"
         },
         {
@@ -3541,6 +3788,9 @@
           "mode": "forms"
         },
         {
+          "text": "Sylvie Meis"
+        },
+        {
           "text": "Thomas Gottschalk",
           "mode": "forms"
         }
@@ -3673,8 +3923,14 @@
           "mode": "forms"
         },
         {
+          "text": "Prince Harry"
+        },
+        {
           "text": "Prinz Frédéric von Anhalt",
           "mode": "forms"
+        },
+        {
+          "text": "Prinz Harry"
         },
         {
           "text": "Robert Geiss",
@@ -3907,6 +4163,9 @@
         {
           "text": "Bannon",
           "mode": "forms"
+        },
+        {
+          "text": "Ben-Gvir"
         },
         {
           "text": "Biden",

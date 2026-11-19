@@ -1,6 +1,6 @@
 # Feedoase: Zentrale Sperrliste
 
-Hier liegt die gemeinsame Sperrliste der Browsererweiterung **Feedoase**. Feedoase blendet in sozialen Netzwerken Beiträge und Kommentare aus, die man nicht sehen möchte. Derzeit funktioniert das auf Facebook, Instagram und TikTok sind vorbereitet.
+Hier liegt die gemeinsame Sperrliste der Browsererweiterung **Feedoase**. Feedoase blendet in sozialen Netzwerken Beiträge und Kommentare aus, die man nicht sehen möchte. Derzeit funktioniert das auf Facebook und Instagram, TikTok ist vorbereitet.
 
 Die Liste steht in einer einzigen Datei: `sperrliste.json`.
 
@@ -19,7 +19,7 @@ Die Liste steht in einer einzigen Datei: `sperrliste.json`.
 
 ## So sieht es aus
 
-In den Bildern aus Facebook sind Namen, Profilbilder und Beitragstexte grau abgedeckt.
+In den Bildern aus Facebook und Instagram sind Namen, Profilbilder, Ortsangaben und Beitragstexte grau abgedeckt.
 
 ### ⛔ neben jedem Absender
 
@@ -47,6 +47,20 @@ An der Stelle eines ausgeblendeten Beitrags steht eine schmale graue Leiste mit 
 
 - **Anzeigen** zeigt nur diesen einen Beitrag an.
 - **Erwähnungen wieder zeigen** schaltet die Erwähnungen der ganzen Gruppe ab. Beiträge, die jemanden aus dieser Gruppe nur erwähnen, erscheinen dann wieder. Beiträge der Personen selbst bleiben ausgeblendet.
+
+### Instagram
+
+![Instagram: zwei ausgeblendete KI-Inhalte und ein Beitrag mit ⛔](bilder/instagram.png)
+
+Auf instagram.com funktioniert es wie auf Facebook:
+
+- Ausgeblendete Beiträge werden zur grauen Leiste, im Bild zwei Beiträge mit der Kennzeichnung „KI-Inhalte“. **KI-Inhalte wieder zeigen** schaltet das Ausblenden von KI-Inhalten ab, auf allen Plattformen.
+- Neben dem Kontonamen oben im Beitrag steht das ⛔. Ein Klick darauf öffnet dasselbe Fenster wie auf Facebook.
+- Gefiltert werden der Feed, vorgeschlagene Beiträge, geöffnete Beiträge und Kommentare. Die eigene Reels-Ansicht, Storys und die Instagram-App auf dem Handy werden nicht gefiltert.
+
+Ein Ausschnitt aus einem echten Instagram-Feed mit Feedoase: Von 17 Beiträgen sind 16 ausgeblendet, 14 davon als KI-Inhalt, einer wegen einer Erwähnung und einer über die Zentrale Sperrliste. Ohne Feedoase stünden sie alle im Feed.
+
+![Instagram-Feed mit Feedoase: 16 graue Leisten, darunter 14 KI-Inhalte](bilder/instagram-feed.png)
 
 ### Fenster hinter dem Symbol
 
@@ -85,6 +99,7 @@ Jede Gruppe hat zwei Schalter:
 - **Profilnummer:** Jedes Profil auf Facebook hat eine feste Nummer. Ist sie bekannt, erkennt Feedoase den Absender nur noch daran. Namensvettern und Fanseiten bleiben dann sichtbar.
 - **Name:** Solange keine Nummer bekannt ist, zählt der angezeigte Name. Bei Personen muss er genau passen, bei Medien reicht der Anfang (zum Beispiel alles, was mit „BILD“ beginnt).
 - **Nur mit Haken:** Bei häufigen Namen gilt der Eintrag nur für Profile mit dem blauen Verifizierungshaken.
+- **Instagram:** Dort steht oben im Beitrag der Kontoname, etwa „musterzeitung“ oder „max.mustermann.official“. Feedoase vergleicht ihn mit dem Namen des Eintrags, auch ohne Punkte und mit üblichen Anhängseln. Personen werden dort nur erkannt, wenn ihr Konto den blauen Verifizierungshaken hat. Die Profilnummer einer Plattform gilt nur auf dieser Plattform.
 - **Webadressen:** Beiträge mit Links auf die genannten Seiten werden ebenfalls ausgeblendet.
 - **Erwähnungen:** Jede Gruppe hat eine Wortliste. Feedoase sucht ganze Wörter und übliche Wortformen (ein Name findet auch die Form mit angehängtem „s“), aber keine Wortteile. Wörter wie „Bild“ oder „Welt“ zählen nur in der Schreibweise der Zeitung („BILD“, „WELT“).
 
