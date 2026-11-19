@@ -1,0 +1,3987 @@
+{
+  "format": 1,
+  "version": "2026.11.19.1717",
+  "name": "Zentrale Sperrliste von Feedoase (Startfassung)",
+  "categories": {
+    "partei": "Parteien",
+    "medium": "Medien",
+    "magazine": "Magazine und Onlineportale",
+    "zeitschriften": "Zeitschriften und Schriften",
+    "organisationen": "Organisationen und Netzwerke",
+    "onlinekanaele": "Onlinekanäle und Personen",
+    "politiker": "Politiker",
+    "fernsehen": "Fernsehen und Comedy",
+    "boulevard": "Reality-TV und Boulevard",
+    "influencer": "Influencer und Streamer",
+    "musik": "Musik",
+    "sport": "Sport",
+    "wirtschaft": "Unternehmer",
+    "verbaende": "Verbände und Gewerkschaften",
+    "international": "Internationale Politik",
+    "historisch": "Historische Personen"
+  },
+  "entries": [
+    {
+      "id": "afd",
+      "name": "AfD",
+      "category": "partei",
+      "keys": [],
+      "namePatterns": [
+        "^AfD\\b",
+        {
+          "pattern": "^Alternative für Deutschland",
+          "flags": "i"
+        },
+        {
+          "pattern": "^Junge Alternative\\b",
+          "flags": "i"
+        }
+      ],
+      "domains": [
+        "afd.de",
+        "afdbundestag.de"
+      ]
+    },
+    {
+      "id": "bz",
+      "name": "B.Z.",
+      "category": "medium",
+      "keys": [],
+      "namePatterns": [
+        "^B\\.Z\\."
+      ],
+      "domains": [
+        "bz-berlin.de"
+      ]
+    },
+    {
+      "id": "bild",
+      "name": "BILD",
+      "category": "medium",
+      "keys": [],
+      "namePatterns": [
+        "^BILD\\b"
+      ],
+      "domains": [
+        "bild.de"
+      ]
+    },
+    {
+      "id": "bams",
+      "name": "BILD am SONNTAG",
+      "category": "medium",
+      "keys": [],
+      "namePatterns": [
+        {
+          "pattern": "^BILD am Sonntag",
+          "flags": "i"
+        },
+        {
+          "pattern": "^BamS\\b",
+          "flags": "i"
+        }
+      ],
+      "domains": []
+    },
+    {
+      "id": "business-insider",
+      "name": "Business Insider",
+      "category": "medium",
+      "keys": [],
+      "namePatterns": [
+        {
+          "pattern": "^Business Insider\\b",
+          "flags": "i"
+        }
+      ],
+      "domains": [
+        "businessinsider.com",
+        "businessinsider.de"
+      ]
+    },
+    {
+      "id": "politico",
+      "name": "POLITICO",
+      "category": "medium",
+      "keys": [],
+      "namePatterns": [
+        {
+          "pattern": "^POLITICO\\b",
+          "flags": "i"
+        }
+      ],
+      "domains": [
+        "politico.com",
+        "politico.eu",
+        "politico.de"
+      ]
+    },
+    {
+      "id": "telegraph",
+      "name": "The Telegraph (Großbritannien)",
+      "category": "medium",
+      "keys": [],
+      "namePatterns": [
+        {
+          "pattern": "^The Telegraph\\b",
+          "flags": "i"
+        }
+      ],
+      "domains": [
+        "telegraph.co.uk"
+      ]
+    },
+    {
+      "id": "welt",
+      "name": "WELT",
+      "category": "medium",
+      "keys": [],
+      "namePatterns": [
+        "^WELT\\b",
+        "^Welt\\.de\\b"
+      ],
+      "domains": [
+        "welt.de"
+      ]
+    },
+    {
+      "id": "wams",
+      "name": "WELT AM SONNTAG",
+      "category": "medium",
+      "keys": [],
+      "namePatterns": [
+        {
+          "pattern": "^WELT am Sonntag",
+          "flags": "i"
+        },
+        {
+          "pattern": "^WamS\\b",
+          "flags": "i"
+        }
+      ],
+      "domains": []
+    },
+    {
+      "id": "ansage",
+      "name": "Ansage.org",
+      "category": "magazine",
+      "keys": [],
+      "namePatterns": [
+        {
+          "pattern": "^Ansage\\.org",
+          "flags": "i"
+        }
+      ],
+      "domains": [
+        "ansage.org"
+      ]
+    },
+    {
+      "id": "apollo-news",
+      "name": "Apollo News",
+      "category": "magazine",
+      "keys": [],
+      "namePatterns": [
+        {
+          "pattern": "^Apollo News\\b",
+          "flags": "i"
+        }
+      ],
+      "domains": [
+        "apollo-news.net"
+      ]
+    },
+    {
+      "id": "auf1",
+      "name": "AUF1",
+      "category": "magazine",
+      "keys": [],
+      "namePatterns": [
+        {
+          "pattern": "^AUF1\\b",
+          "flags": "i"
+        }
+      ],
+      "domains": [
+        "auf1.tv"
+      ]
+    },
+    {
+      "id": "cato",
+      "name": "Cato (Magazin)",
+      "category": "magazine",
+      "keys": [],
+      "namePatterns": [
+        {
+          "pattern": "^Cato[- ]Magazin",
+          "flags": "i"
+        }
+      ],
+      "domains": [
+        "cato-magazin.de"
+      ]
+    },
+    {
+      "id": "compact",
+      "name": "COMPACT",
+      "category": "magazine",
+      "keys": [],
+      "namePatterns": [
+        "^COMPACT\\b",
+        {
+          "pattern": "^Compact[- ]Magazin",
+          "flags": "i"
+        }
+      ],
+      "domains": [
+        "compact-online.de"
+      ]
+    },
+    {
+      "id": "deutschland-kurier",
+      "name": "Deutschland-Kurier",
+      "category": "magazine",
+      "keys": [],
+      "namePatterns": [
+        {
+          "pattern": "^Deutschland[- ]?Kurier",
+          "flags": "i"
+        }
+      ],
+      "domains": [
+        "deutschlandkurier.de"
+      ]
+    },
+    {
+      "id": "epoch-times",
+      "name": "Epoch Times",
+      "category": "magazine",
+      "keys": [],
+      "namePatterns": [
+        {
+          "pattern": "^(The )?Epoch Times\\b",
+          "flags": "i"
+        }
+      ],
+      "domains": [
+        "epochtimes.de",
+        "theepochtimes.com"
+      ]
+    },
+    {
+      "id": "freie-welt",
+      "name": "Freie Welt",
+      "category": "magazine",
+      "keys": [],
+      "namePatterns": [
+        {
+          "pattern": "^FreieWelt\\.net",
+          "flags": "i"
+        },
+        {
+          "pattern": "^Freie Welt$",
+          "flags": "i"
+        }
+      ],
+      "domains": [
+        "freiewelt.net"
+      ]
+    },
+    {
+      "id": "freilich",
+      "name": "FREILICH",
+      "category": "magazine",
+      "keys": [],
+      "namePatterns": [
+        "^FREILICH\\b",
+        {
+          "pattern": "^Freilich[- ]Magazin",
+          "flags": "i"
+        }
+      ],
+      "domains": [
+        "freilich-magazin.com"
+      ]
+    },
+    {
+      "id": "heimatkurier",
+      "name": "Heimatkurier",
+      "category": "magazine",
+      "keys": [],
+      "namePatterns": [
+        {
+          "pattern": "^Heimatkurier\\b",
+          "flags": "i"
+        }
+      ],
+      "domains": [
+        "heimatkurier.at"
+      ]
+    },
+    {
+      "id": "info-direkt",
+      "name": "Info-DIREKT",
+      "category": "magazine",
+      "keys": [],
+      "namePatterns": [
+        {
+          "pattern": "^Info[- ]DIREKT\\b",
+          "flags": "i"
+        }
+      ],
+      "domains": [
+        "info-direkt.eu"
+      ]
+    },
+    {
+      "id": "journalistenwatch",
+      "name": "Journalistenwatch",
+      "category": "magazine",
+      "keys": [],
+      "namePatterns": [
+        {
+          "pattern": "^Journalistenwatch",
+          "flags": "i"
+        },
+        {
+          "pattern": "^JouWatch\\b",
+          "flags": "i"
+        }
+      ],
+      "domains": [
+        "journalistenwatch.com"
+      ]
+    },
+    {
+      "id": "junge-freiheit",
+      "name": "Junge Freiheit",
+      "category": "magazine",
+      "keys": [],
+      "namePatterns": [
+        {
+          "pattern": "^Junge Freiheit\\b",
+          "flags": "i"
+        }
+      ],
+      "domains": [
+        "jungefreiheit.de"
+      ]
+    },
+    {
+      "id": "kopp",
+      "name": "KOPP Report",
+      "category": "magazine",
+      "keys": [],
+      "namePatterns": [
+        {
+          "pattern": "^Kopp[- ](Report|Verlag)\\b",
+          "flags": "i"
+        }
+      ],
+      "domains": [
+        "kopp-report.de",
+        "kopp-verlag.de"
+      ]
+    },
+    {
+      "id": "krautzone",
+      "name": "Krautzone",
+      "category": "magazine",
+      "keys": [],
+      "namePatterns": [
+        {
+          "pattern": "^Krautzone",
+          "flags": "i"
+        }
+      ],
+      "domains": [
+        "krautzone.de"
+      ]
+    },
+    {
+      "id": "nius",
+      "name": "NIUS",
+      "category": "magazine",
+      "keys": [],
+      "namePatterns": [
+        {
+          "pattern": "^NIUS\\b",
+          "flags": "i"
+        }
+      ],
+      "domains": [
+        "nius.de"
+      ]
+    },
+    {
+      "id": "opposition24",
+      "name": "Opposition24",
+      "category": "magazine",
+      "keys": [],
+      "namePatterns": [
+        {
+          "pattern": "^Opposition ?24\\b",
+          "flags": "i"
+        }
+      ],
+      "domains": [
+        "opposition24.com"
+      ]
+    },
+    {
+      "id": "philosophia-perennis",
+      "name": "Philosophia Perennis",
+      "category": "magazine",
+      "keys": [],
+      "namePatterns": [
+        {
+          "pattern": "^Philosophia Perennis",
+          "flags": "i"
+        }
+      ],
+      "domains": [
+        "philosophia-perennis.com"
+      ]
+    },
+    {
+      "id": "pi-news",
+      "name": "PI-NEWS",
+      "category": "magazine",
+      "keys": [],
+      "namePatterns": [
+        {
+          "pattern": "^PI[- ]NEWS\\b",
+          "flags": "i"
+        }
+      ],
+      "domains": [
+        "pi-news.net"
+      ]
+    },
+    {
+      "id": "reitschuster",
+      "name": "Reitschuster",
+      "category": "magazine",
+      "keys": [],
+      "namePatterns": [
+        {
+          "pattern": "^(Boris )?Reitschuster\\b",
+          "flags": "i"
+        }
+      ],
+      "domains": [
+        "reitschuster.de"
+      ]
+    },
+    {
+      "id": "sezession",
+      "name": "Sezession",
+      "category": "magazine",
+      "keys": [],
+      "namePatterns": [
+        {
+          "pattern": "^Sezession\\b",
+          "flags": "i"
+        }
+      ],
+      "domains": [
+        "sezession.de"
+      ]
+    },
+    {
+      "id": "tichys-einblick",
+      "name": "Tichys Einblick",
+      "category": "magazine",
+      "keys": [],
+      "namePatterns": [
+        {
+          "pattern": "^Tichys Einblick",
+          "flags": "i"
+        }
+      ],
+      "domains": [
+        "tichyseinblick.de"
+      ]
+    },
+    {
+      "id": "unser-mitteleuropa",
+      "name": "Unser Mitteleuropa",
+      "category": "magazine",
+      "keys": [],
+      "namePatterns": [
+        {
+          "pattern": "^Unser Mitteleuropa",
+          "flags": "i"
+        }
+      ],
+      "domains": [
+        "unser-mitteleuropa.com"
+      ]
+    },
+    {
+      "id": "unzensuriert",
+      "name": "Unzensuriert",
+      "category": "magazine",
+      "keys": [],
+      "namePatterns": [
+        {
+          "pattern": "^Unzensuriert\\b",
+          "flags": "i"
+        }
+      ],
+      "domains": [
+        "unzensuriert.at",
+        "unzensuriert.de"
+      ]
+    },
+    {
+      "id": "zuerst",
+      "name": "ZUERST!",
+      "category": "magazine",
+      "keys": [],
+      "namePatterns": [
+        "^ZUERST!"
+      ],
+      "domains": [
+        "zuerst.de"
+      ]
+    },
+    {
+      "id": "der-schelm",
+      "name": "Der Schelm",
+      "category": "zeitschriften",
+      "keys": [],
+      "namePatterns": [
+        "^Der Schelm$"
+      ],
+      "domains": []
+    },
+    {
+      "id": "deutsche-stimme",
+      "name": "Deutsche Stimme",
+      "category": "zeitschriften",
+      "keys": [],
+      "namePatterns": [
+        "^Deutsche Stimme\\b"
+      ],
+      "domains": [
+        "deutsche-stimme.de"
+      ]
+    },
+    {
+      "id": "ns-heute",
+      "name": "N.S. Heute",
+      "category": "zeitschriften",
+      "keys": [],
+      "namePatterns": [
+        {
+          "pattern": "^N\\.? ?S\\.? Heute\\b",
+          "flags": "i"
+        }
+      ],
+      "domains": []
+    },
+    {
+      "id": "national-zeitung",
+      "name": "National-Zeitung",
+      "category": "zeitschriften",
+      "keys": [],
+      "namePatterns": [
+        {
+          "pattern": "^National-Zeitung\\b",
+          "flags": "i"
+        }
+      ],
+      "domains": []
+    },
+    {
+      "id": "umwelt-aktiv",
+      "name": "Umwelt & Aktiv",
+      "category": "zeitschriften",
+      "keys": [],
+      "namePatterns": [
+        {
+          "pattern": "^Umwelt (&|und) Aktiv\\b",
+          "flags": "i"
+        }
+      ],
+      "domains": []
+    },
+    {
+      "id": "volk-in-bewegung",
+      "name": "Volk in Bewegung",
+      "category": "zeitschriften",
+      "keys": [],
+      "namePatterns": [
+        {
+          "pattern": "^Volk in Bewegung\\b",
+          "flags": "i"
+        }
+      ],
+      "domains": []
+    },
+    {
+      "id": "wahrheit-fuer-deutschland",
+      "name": "Wahrheit für Deutschland",
+      "category": "zeitschriften",
+      "keys": [],
+      "namePatterns": [
+        {
+          "pattern": "^Wahrheit für Deutschland\\b",
+          "flags": "i"
+        }
+      ],
+      "domains": []
+    },
+    {
+      "id": "dritter-weg",
+      "name": "Der III. Weg",
+      "category": "organisationen",
+      "keys": [],
+      "namePatterns": [
+        {
+          "pattern": "^(Der )?III\\. Weg\\b",
+          "flags": "i"
+        },
+        {
+          "pattern": "^Der Dritte Weg$",
+          "flags": "i"
+        }
+      ],
+      "domains": [
+        "der-dritte-weg.info"
+      ]
+    },
+    {
+      "id": "die-heimat",
+      "name": "Die Heimat (ehemals NPD)",
+      "category": "organisationen",
+      "keys": [],
+      "namePatterns": [
+        "^NPD\\b",
+        "^Die Heimat$",
+        {
+          "pattern": "^Die Heimat \\(",
+          "flags": "i"
+        }
+      ],
+      "domains": [
+        "npd.de"
+      ]
+    },
+    {
+      "id": "ein-prozent",
+      "name": "Ein Prozent",
+      "category": "organisationen",
+      "keys": [],
+      "namePatterns": [
+        {
+          "pattern": "^Ein Prozent( e\\.V\\.| für unser Land)?$",
+          "flags": "i"
+        }
+      ],
+      "domains": [
+        "einprozent.de"
+      ]
+    },
+    {
+      "id": "freie-sachsen",
+      "name": "Freie Sachsen",
+      "category": "organisationen",
+      "keys": [],
+      "namePatterns": [
+        {
+          "pattern": "^Freie Sachsen\\b",
+          "flags": "i"
+        }
+      ],
+      "domains": [
+        "freie-sachsen.info"
+      ]
+    },
+    {
+      "id": "identitaere",
+      "name": "Identitäre Bewegung",
+      "category": "organisationen",
+      "keys": [],
+      "namePatterns": [
+        {
+          "pattern": "^Identitäre\\b",
+          "flags": "i"
+        },
+        {
+          "pattern": "^Generation Identitär",
+          "flags": "i"
+        }
+      ],
+      "domains": []
+    },
+    {
+      "id": "ifs",
+      "name": "Institut für Staatspolitik",
+      "category": "organisationen",
+      "keys": [],
+      "namePatterns": [
+        {
+          "pattern": "^Institut für Staatspolitik",
+          "flags": "i"
+        }
+      ],
+      "domains": [
+        "staatspolitik.de"
+      ]
+    },
+    {
+      "id": "junge-nationalisten",
+      "name": "Junge Nationalisten",
+      "category": "organisationen",
+      "keys": [],
+      "namePatterns": [
+        {
+          "pattern": "^Junge Nationalisten\\b",
+          "flags": "i"
+        }
+      ],
+      "domains": []
+    },
+    {
+      "id": "neue-staerke",
+      "name": "Neue Stärke Partei",
+      "category": "organisationen",
+      "keys": [],
+      "namePatterns": [
+        {
+          "pattern": "^Neue Stärke Partei\\b",
+          "flags": "i"
+        }
+      ],
+      "domains": []
+    },
+    {
+      "id": "reichsbuerger",
+      "name": "Reichsbürgerbewegung",
+      "category": "organisationen",
+      "keys": [],
+      "namePatterns": [
+        {
+          "pattern": "^Reichsbürger",
+          "flags": "i"
+        }
+      ],
+      "domains": []
+    },
+    {
+      "id": "antaios",
+      "name": "Verlag Antaios",
+      "category": "organisationen",
+      "keys": [],
+      "namePatterns": [
+        {
+          "pattern": "^(Verlag )?Antaios\\b",
+          "flags": "i"
+        }
+      ],
+      "domains": [
+        "antaios.de"
+      ]
+    },
+    {
+      "id": "p-attila-hildmann",
+      "name": "Attila Hildmann",
+      "category": "onlinekanaele",
+      "names": [
+        "Attila Hildmann"
+      ]
+    },
+    {
+      "id": "p-eva-herman",
+      "name": "Eva Herman",
+      "category": "onlinekanaele",
+      "names": [
+        "Eva Herman"
+      ]
+    },
+    {
+      "id": "p-ken-jebsen",
+      "name": "Ken Jebsen",
+      "category": "onlinekanaele",
+      "names": [
+        "Ken Jebsen",
+        "Kayvan Soufi-Siavash"
+      ]
+    },
+    {
+      "id": "kenfm-apolut",
+      "name": "KenFM / Apolut",
+      "category": "onlinekanaele",
+      "keys": [],
+      "namePatterns": [
+        {
+          "pattern": "^KenFM\\b",
+          "flags": "i"
+        },
+        {
+          "pattern": "^Apolut\\b",
+          "flags": "i"
+        }
+      ],
+      "domains": [
+        "kenfm.de",
+        "apolut.net"
+      ]
+    },
+    {
+      "id": "kla-tv",
+      "name": "Kla.TV",
+      "category": "onlinekanaele",
+      "keys": [],
+      "namePatterns": [
+        {
+          "pattern": "^Kla\\.? ?TV\\b",
+          "flags": "i"
+        },
+        {
+          "pattern": "^Klagemauer\\.? ?TV\\b",
+          "flags": "i"
+        }
+      ],
+      "domains": [
+        "kla.tv"
+      ]
+    },
+    {
+      "id": "p-alexander-dobrindt",
+      "name": "Alexander Dobrindt",
+      "category": "politiker",
+      "names": [
+        "Alexander Dobrindt"
+      ]
+    },
+    {
+      "id": "p-alexander-gauland",
+      "name": "Alexander Gauland",
+      "category": "politiker",
+      "names": [
+        "Alexander Gauland"
+      ]
+    },
+    {
+      "id": "p-alexander-hoffmann",
+      "name": "Alexander Hoffmann",
+      "category": "politiker",
+      "names": [
+        "Alexander Hoffmann"
+      ],
+      "verifiedOnly": true
+    },
+    {
+      "id": "p-alice-weidel",
+      "name": "Alice Weidel",
+      "category": "politiker",
+      "names": [
+        "Alice Weidel"
+      ]
+    },
+    {
+      "id": "p-andreas-jurca",
+      "name": "Andreas Jurca",
+      "category": "politiker",
+      "names": [
+        "Andreas Jurca"
+      ]
+    },
+    {
+      "id": "p-andreas-lichert",
+      "name": "Andreas Lichert",
+      "category": "politiker",
+      "names": [
+        "Andreas Lichert"
+      ]
+    },
+    {
+      "id": "p-andreas-scheuer",
+      "name": "Andreas Scheuer",
+      "category": "politiker",
+      "names": [
+        "Andreas Scheuer"
+      ]
+    },
+    {
+      "id": "p-angela-merkel",
+      "name": "Angela Merkel",
+      "category": "politiker",
+      "names": [
+        "Angela Merkel"
+      ]
+    },
+    {
+      "id": "p-annegret-kramp-karrenbauer",
+      "name": "Annegret Kramp-Karrenbauer",
+      "category": "politiker",
+      "names": [
+        "Annegret Kramp-Karrenbauer"
+      ]
+    },
+    {
+      "id": "p-armin-laschet",
+      "name": "Armin Laschet",
+      "category": "politiker",
+      "names": [
+        "Armin Laschet"
+      ]
+    },
+    {
+      "id": "p-beatrix-von-storch",
+      "name": "Beatrix von Storch",
+      "category": "politiker",
+      "names": [
+        "Beatrix von Storch"
+      ]
+    },
+    {
+      "id": "p-bernd-baumann",
+      "name": "Bernd Baumann",
+      "category": "politiker",
+      "names": [
+        "Bernd Baumann"
+      ],
+      "verifiedOnly": true
+    },
+    {
+      "id": "p-bjoern-hoecke",
+      "name": "Björn Höcke",
+      "category": "politiker",
+      "names": [
+        "Björn Höcke"
+      ]
+    },
+    {
+      "id": "p-carsten-linnemann",
+      "name": "Carsten Linnemann",
+      "category": "politiker",
+      "names": [
+        "Carsten Linnemann"
+      ]
+    },
+    {
+      "id": "p-christian-lindner",
+      "name": "Christian Lindner",
+      "category": "politiker",
+      "names": [
+        "Christian Lindner"
+      ]
+    },
+    {
+      "id": "p-christian-loose",
+      "name": "Christian Loose",
+      "category": "politiker",
+      "names": [
+        "Christian Loose"
+      ],
+      "verifiedOnly": true
+    },
+    {
+      "id": "p-christian-wulff",
+      "name": "Christian Wulff",
+      "category": "politiker",
+      "names": [
+        "Christian Wulff"
+      ]
+    },
+    {
+      "id": "p-daniel-guenther",
+      "name": "Daniel Günther",
+      "category": "politiker",
+      "names": [
+        "Daniel Günther"
+      ]
+    },
+    {
+      "id": "p-daniel-halemba",
+      "name": "Daniel Halemba",
+      "category": "politiker",
+      "names": [
+        "Daniel Halemba"
+      ]
+    },
+    {
+      "id": "p-david-mcallister",
+      "name": "David McAllister",
+      "category": "politiker",
+      "names": [
+        "David McAllister"
+      ]
+    },
+    {
+      "id": "p-dennis-hohloch",
+      "name": "Dennis Hohloch",
+      "category": "politiker",
+      "names": [
+        "Dennis Hohloch"
+      ],
+      "verifiedOnly": true
+    },
+    {
+      "id": "p-dirk-nockemann",
+      "name": "Dirk Nockemann",
+      "category": "politiker",
+      "names": [
+        "Dirk Nockemann"
+      ]
+    },
+    {
+      "id": "p-dorothee-baer",
+      "name": "Dorothee Bär",
+      "category": "politiker",
+      "names": [
+        "Dorothee Bär"
+      ]
+    },
+    {
+      "id": "p-edmund-stoiber",
+      "name": "Edmund Stoiber",
+      "category": "politiker",
+      "names": [
+        "Edmund Stoiber"
+      ]
+    },
+    {
+      "id": "p-florian-hahn",
+      "name": "Florian Hahn",
+      "category": "politiker",
+      "names": [
+        "Florian Hahn"
+      ],
+      "verifiedOnly": true
+    },
+    {
+      "id": "p-frank-christian-hansel",
+      "name": "Frank-Christian Hansel",
+      "category": "politiker",
+      "names": [
+        "Frank-Christian Hansel"
+      ]
+    },
+    {
+      "id": "p-friedrich-merz",
+      "name": "Friedrich Merz",
+      "category": "politiker",
+      "names": [
+        "Friedrich Merz"
+      ]
+    },
+    {
+      "id": "p-gordon-schnieder",
+      "name": "Gordon Schnieder",
+      "category": "politiker",
+      "names": [
+        "Gordon Schnieder"
+      ]
+    },
+    {
+      "id": "p-gottfried-curio",
+      "name": "Gottfried Curio",
+      "category": "politiker",
+      "names": [
+        "Gottfried Curio"
+      ]
+    },
+    {
+      "id": "p-goetz-froemming",
+      "name": "Götz Frömming",
+      "category": "politiker",
+      "names": [
+        "Götz Frömming"
+      ]
+    },
+    {
+      "id": "p-gunnar-lindemann",
+      "name": "Gunnar Lindemann",
+      "category": "politiker",
+      "names": [
+        "Gunnar Lindemann"
+      ]
+    },
+    {
+      "id": "p-guenther-oettinger",
+      "name": "Günther Oettinger",
+      "category": "politiker",
+      "names": [
+        "Günther Oettinger"
+      ]
+    },
+    {
+      "id": "p-hannes-gnauck",
+      "name": "Hannes Gnauck",
+      "category": "politiker",
+      "names": [
+        "Hannes Gnauck"
+      ]
+    },
+    {
+      "id": "p-hans-christoph-berndt",
+      "name": "Hans-Christoph Berndt",
+      "category": "politiker",
+      "names": [
+        "Hans-Christoph Berndt"
+      ]
+    },
+    {
+      "id": "p-hans-thomas-tillschneider",
+      "name": "Hans-Thomas Tillschneider",
+      "category": "politiker",
+      "names": [
+        "Hans-Thomas Tillschneider"
+      ]
+    },
+    {
+      "id": "p-hendrik-streeck",
+      "name": "Hendrik Streeck",
+      "category": "politiker",
+      "names": [
+        "Hendrik Streeck"
+      ]
+    },
+    {
+      "id": "p-hendrik-wuest",
+      "name": "Hendrik Wüst",
+      "category": "politiker",
+      "names": [
+        "Hendrik Wüst"
+      ]
+    },
+    {
+      "id": "p-horst-seehofer",
+      "name": "Horst Seehofer",
+      "category": "politiker",
+      "names": [
+        "Horst Seehofer"
+      ]
+    },
+    {
+      "id": "p-ilse-aigner",
+      "name": "Ilse Aigner",
+      "category": "politiker",
+      "names": [
+        "Ilse Aigner"
+      ]
+    },
+    {
+      "id": "p-ingo-senftleben",
+      "name": "Ingo Senftleben",
+      "category": "politiker",
+      "names": [
+        "Ingo Senftleben"
+      ]
+    },
+    {
+      "id": "p-jens-spahn",
+      "name": "Jens Spahn",
+      "category": "politiker",
+      "names": [
+        "Jens Spahn"
+      ]
+    },
+    {
+      "id": "p-joachim-paul",
+      "name": "Joachim Paul",
+      "category": "politiker",
+      "names": [
+        "Joachim Paul"
+      ],
+      "verifiedOnly": true
+    },
+    {
+      "id": "p-joerg-prophet",
+      "name": "Jörg Prophet",
+      "category": "politiker",
+      "names": [
+        "Jörg Prophet"
+      ]
+    },
+    {
+      "id": "p-joerg-urban",
+      "name": "Jörg Urban",
+      "category": "politiker",
+      "names": [
+        "Jörg Urban"
+      ],
+      "verifiedOnly": true
+    },
+    {
+      "id": "p-julia-kloeckner",
+      "name": "Julia Klöckner",
+      "category": "politiker",
+      "names": [
+        "Julia Klöckner"
+      ]
+    },
+    {
+      "id": "p-juergen-hardt",
+      "name": "Jürgen Hardt",
+      "category": "politiker",
+      "names": [
+        "Jürgen Hardt"
+      ],
+      "verifiedOnly": true
+    },
+    {
+      "id": "p-kai-wegner",
+      "name": "Kai Wegner",
+      "category": "politiker",
+      "names": [
+        "Kai Wegner"
+      ],
+      "verifiedOnly": true
+    },
+    {
+      "id": "p-karin-prien",
+      "name": "Karin Prien",
+      "category": "politiker",
+      "names": [
+        "Karin Prien"
+      ]
+    },
+    {
+      "id": "p-karl-theodor-zu-guttenberg",
+      "name": "Karl-Theodor zu Guttenberg",
+      "category": "politiker",
+      "names": [
+        "Karl-Theodor zu Guttenberg"
+      ]
+    },
+    {
+      "id": "p-karsten-hilse",
+      "name": "Karsten Hilse",
+      "category": "politiker",
+      "names": [
+        "Karsten Hilse"
+      ]
+    },
+    {
+      "id": "p-katrin-ebner-steiner",
+      "name": "Katrin Ebner-Steiner",
+      "category": "politiker",
+      "names": [
+        "Katrin Ebner-Steiner"
+      ]
+    },
+    {
+      "id": "p-kay-gottschalk",
+      "name": "Kay Gottschalk",
+      "category": "politiker",
+      "names": [
+        "Kay Gottschalk"
+      ],
+      "verifiedOnly": true
+    },
+    {
+      "id": "p-kristin-brinker",
+      "name": "Kristin Brinker",
+      "category": "politiker",
+      "names": [
+        "Kristin Brinker"
+      ]
+    },
+    {
+      "id": "p-leif-erik-holm",
+      "name": "Leif-Erik Holm",
+      "category": "politiker",
+      "names": [
+        "Leif-Erik Holm"
+      ]
+    },
+    {
+      "id": "p-lena-kotre",
+      "name": "Lena Kotré",
+      "category": "politiker",
+      "names": [
+        "Lena Kotré"
+      ]
+    },
+    {
+      "id": "p-manfred-weber",
+      "name": "Manfred Weber",
+      "category": "politiker",
+      "names": [
+        "Manfred Weber"
+      ],
+      "verifiedOnly": true
+    },
+    {
+      "id": "p-mario-voigt",
+      "name": "Mario Voigt",
+      "category": "politiker",
+      "names": [
+        "Mario Voigt"
+      ],
+      "verifiedOnly": true
+    },
+    {
+      "id": "p-markus-frohnmaier",
+      "name": "Markus Frohnmaier",
+      "category": "politiker",
+      "names": [
+        "Markus Frohnmaier"
+      ]
+    },
+    {
+      "id": "p-markus-soeder",
+      "name": "Markus Söder",
+      "category": "politiker",
+      "names": [
+        "Markus Söder"
+      ]
+    },
+    {
+      "id": "p-markus-wagner",
+      "name": "Markus Wagner",
+      "category": "politiker",
+      "names": [
+        "Markus Wagner"
+      ],
+      "verifiedOnly": true
+    },
+    {
+      "id": "p-martin-e-renner",
+      "name": "Martin E. Renner",
+      "category": "politiker",
+      "names": [
+        "Martin E. Renner",
+        "Martin Renner"
+      ]
+    },
+    {
+      "id": "p-martin-hess",
+      "name": "Martin Hess",
+      "category": "politiker",
+      "names": [
+        "Martin Hess"
+      ],
+      "verifiedOnly": true
+    },
+    {
+      "id": "p-martin-reichardt",
+      "name": "Martin Reichardt",
+      "category": "politiker",
+      "names": [
+        "Martin Reichardt"
+      ],
+      "verifiedOnly": true
+    },
+    {
+      "id": "p-martin-sichert",
+      "name": "Martin Sichert",
+      "category": "politiker",
+      "names": [
+        "Martin Sichert"
+      ],
+      "verifiedOnly": true
+    },
+    {
+      "id": "p-martin-vincentz",
+      "name": "Martin Vincentz",
+      "category": "politiker",
+      "names": [
+        "Martin Vincentz"
+      ]
+    },
+    {
+      "id": "p-matthias-helferich",
+      "name": "Matthias Helferich",
+      "category": "politiker",
+      "names": [
+        "Matthias Helferich"
+      ]
+    },
+    {
+      "id": "p-maximilian-krah",
+      "name": "Maximilian Krah",
+      "category": "politiker",
+      "names": [
+        "Maximilian Krah"
+      ]
+    },
+    {
+      "id": "p-michael-kretschmer",
+      "name": "Michael Kretschmer",
+      "category": "politiker",
+      "names": [
+        "Michael Kretschmer"
+      ],
+      "verifiedOnly": true
+    },
+    {
+      "id": "p-monika-gruetters",
+      "name": "Monika Grütters",
+      "category": "politiker",
+      "names": [
+        "Monika Grütters"
+      ]
+    },
+    {
+      "id": "p-nikolaus-kramer",
+      "name": "Nikolaus Kramer",
+      "category": "politiker",
+      "names": [
+        "Nikolaus Kramer"
+      ]
+    },
+    {
+      "id": "p-norbert-roettgen",
+      "name": "Norbert Röttgen",
+      "category": "politiker",
+      "names": [
+        "Norbert Röttgen"
+      ]
+    },
+    {
+      "id": "p-oliver-kirchner",
+      "name": "Oliver Kirchner",
+      "category": "politiker",
+      "names": [
+        "Oliver Kirchner"
+      ],
+      "verifiedOnly": true
+    },
+    {
+      "id": "p-peter-altmaier",
+      "name": "Peter Altmaier",
+      "category": "politiker",
+      "names": [
+        "Peter Altmaier"
+      ]
+    },
+    {
+      "id": "p-peter-boehringer",
+      "name": "Peter Boehringer",
+      "category": "politiker",
+      "names": [
+        "Peter Boehringer"
+      ]
+    },
+    {
+      "id": "p-peter-gauweiler",
+      "name": "Peter Gauweiler",
+      "category": "politiker",
+      "names": [
+        "Peter Gauweiler"
+      ]
+    },
+    {
+      "id": "p-peter-ramsauer",
+      "name": "Peter Ramsauer",
+      "category": "politiker",
+      "names": [
+        "Peter Ramsauer"
+      ]
+    },
+    {
+      "id": "p-philipp-amthor",
+      "name": "Philipp Amthor",
+      "category": "politiker",
+      "names": [
+        "Philipp Amthor"
+      ]
+    },
+    {
+      "id": "p-philipp-mueller",
+      "name": "Philipp Müller",
+      "category": "politiker",
+      "names": [
+        "Philipp Müller"
+      ],
+      "verifiedOnly": true
+    },
+    {
+      "id": "p-reiner-haseloff",
+      "name": "Reiner Haseloff",
+      "category": "politiker",
+      "names": [
+        "Reiner Haseloff"
+      ]
+    },
+    {
+      "id": "p-rene-springer",
+      "name": "René Springer",
+      "category": "politiker",
+      "names": [
+        "René Springer"
+      ],
+      "verifiedOnly": true
+    },
+    {
+      "id": "p-robert-lambrou",
+      "name": "Robert Lambrou",
+      "category": "politiker",
+      "names": [
+        "Robert Lambrou"
+      ]
+    },
+    {
+      "id": "p-ruediger-lucassen",
+      "name": "Rüdiger Lucassen",
+      "category": "politiker",
+      "names": [
+        "Rüdiger Lucassen"
+      ]
+    },
+    {
+      "id": "p-sebastian-muenzenmaier",
+      "name": "Sebastian Münzenmaier",
+      "category": "politiker",
+      "names": [
+        "Sebastian Münzenmaier"
+      ]
+    },
+    {
+      "id": "p-serap-gueler",
+      "name": "Serap Güler",
+      "category": "politiker",
+      "names": [
+        "Serap Güler"
+      ]
+    },
+    {
+      "id": "p-stefan-moeller",
+      "name": "Stefan Möller",
+      "category": "politiker",
+      "names": [
+        "Stefan Möller"
+      ],
+      "verifiedOnly": true
+    },
+    {
+      "id": "p-steffen-bilger",
+      "name": "Steffen Bilger",
+      "category": "politiker",
+      "names": [
+        "Steffen Bilger"
+      ]
+    },
+    {
+      "id": "p-stephan-brandner",
+      "name": "Stephan Brandner",
+      "category": "politiker",
+      "names": [
+        "Stephan Brandner"
+      ]
+    },
+    {
+      "id": "p-stephan-mayer",
+      "name": "Stephan Mayer",
+      "category": "politiker",
+      "names": [
+        "Stephan Mayer"
+      ],
+      "verifiedOnly": true
+    },
+    {
+      "id": "p-stephan-protschka",
+      "name": "Stephan Protschka",
+      "category": "politiker",
+      "names": [
+        "Stephan Protschka"
+      ]
+    },
+    {
+      "id": "p-sven-schulze",
+      "name": "Sven Schulze",
+      "category": "politiker",
+      "names": [
+        "Sven Schulze"
+      ],
+      "verifiedOnly": true
+    },
+    {
+      "id": "p-sven-tritschler",
+      "name": "Sven Tritschler",
+      "category": "politiker",
+      "names": [
+        "Sven Tritschler"
+      ]
+    },
+    {
+      "id": "p-theo-waigel",
+      "name": "Theo Waigel",
+      "category": "politiker",
+      "names": [
+        "Theo Waigel"
+      ]
+    },
+    {
+      "id": "p-thomas-strobl",
+      "name": "Thomas Strobl",
+      "category": "politiker",
+      "names": [
+        "Thomas Strobl"
+      ],
+      "verifiedOnly": true
+    },
+    {
+      "id": "p-thorsten-frei",
+      "name": "Thorsten Frei",
+      "category": "politiker",
+      "names": [
+        "Thorsten Frei"
+      ],
+      "verifiedOnly": true
+    },
+    {
+      "id": "p-tino-chrupalla",
+      "name": "Tino Chrupalla",
+      "category": "politiker",
+      "names": [
+        "Tino Chrupalla"
+      ]
+    },
+    {
+      "id": "p-ulrich-siegmund",
+      "name": "Ulrich Siegmund",
+      "category": "politiker",
+      "names": [
+        "Ulrich Siegmund"
+      ]
+    },
+    {
+      "id": "p-ursula-von-der-leyen",
+      "name": "Ursula von der Leyen",
+      "category": "politiker",
+      "names": [
+        "Ursula von der Leyen"
+      ]
+    },
+    {
+      "id": "p-volker-bouffier",
+      "name": "Volker Bouffier",
+      "category": "politiker",
+      "names": [
+        "Volker Bouffier"
+      ]
+    },
+    {
+      "id": "p-wiebke-muhsal",
+      "name": "Wiebke Muhsal",
+      "category": "politiker",
+      "names": [
+        "Wiebke Muhsal"
+      ]
+    },
+    {
+      "id": "p-wolfgang-schaeuble",
+      "name": "Wolfgang Schäuble",
+      "category": "politiker",
+      "names": [
+        "Wolfgang Schäuble"
+      ]
+    },
+    {
+      "id": "p-constantin-schreiber",
+      "name": "Constantin Schreiber",
+      "category": "fernsehen",
+      "names": [
+        "Constantin Schreiber"
+      ]
+    },
+    {
+      "id": "p-dieter-bohlen",
+      "name": "Dieter Bohlen",
+      "category": "fernsehen",
+      "names": [
+        "Dieter Bohlen"
+      ]
+    },
+    {
+      "id": "p-dieter-nuhr",
+      "name": "Dieter Nuhr",
+      "category": "fernsehen",
+      "names": [
+        "Dieter Nuhr"
+      ]
+    },
+    {
+      "id": "p-guenther-jauch",
+      "name": "Günther Jauch",
+      "category": "fernsehen",
+      "names": [
+        "Günther Jauch"
+      ]
+    },
+    {
+      "id": "p-harald-krassnitzer",
+      "name": "Harald Krassnitzer",
+      "category": "fernsehen",
+      "names": [
+        "Harald Krassnitzer"
+      ]
+    },
+    {
+      "id": "p-harald-schmidt",
+      "name": "Harald Schmidt",
+      "category": "fernsehen",
+      "names": [
+        "Harald Schmidt"
+      ],
+      "verifiedOnly": true
+    },
+    {
+      "id": "p-heidi-klum",
+      "name": "Heidi Klum",
+      "category": "fernsehen",
+      "names": [
+        "Heidi Klum"
+      ]
+    },
+    {
+      "id": "p-mario-barth",
+      "name": "Mario Barth",
+      "category": "fernsehen",
+      "names": [
+        "Mario Barth"
+      ]
+    },
+    {
+      "id": "p-markus-lanz",
+      "name": "Markus Lanz",
+      "category": "fernsehen",
+      "names": [
+        "Markus Lanz"
+      ]
+    },
+    {
+      "id": "p-oliver-pocher",
+      "name": "Oliver Pocher",
+      "category": "fernsehen",
+      "names": [
+        "Oliver Pocher"
+      ]
+    },
+    {
+      "id": "p-thomas-gottschalk",
+      "name": "Thomas Gottschalk",
+      "category": "fernsehen",
+      "names": [
+        "Thomas Gottschalk"
+      ]
+    },
+    {
+      "id": "p-andreas-ellermann",
+      "name": "Andreas Ellermann",
+      "category": "boulevard",
+      "names": [
+        "Andreas Ellermann"
+      ],
+      "verifiedOnly": true
+    },
+    {
+      "id": "p-carmen-geiss",
+      "name": "Carmen Geiss",
+      "category": "boulevard",
+      "names": [
+        "Carmen Geiss"
+      ]
+    },
+    {
+      "id": "p-claudia-obert",
+      "name": "Claudia Obert",
+      "category": "boulevard",
+      "names": [
+        "Claudia Obert"
+      ]
+    },
+    {
+      "id": "p-cora-schumacher",
+      "name": "Cora Schumacher",
+      "category": "boulevard",
+      "names": [
+        "Cora Schumacher"
+      ]
+    },
+    {
+      "id": "p-cosimo-citiolo",
+      "name": "Cosimo Citiolo",
+      "category": "boulevard",
+      "names": [
+        "Cosimo Citiolo"
+      ]
+    },
+    {
+      "id": "p-danni-buechner",
+      "name": "Danni Büchner",
+      "category": "boulevard",
+      "names": [
+        "Danni Büchner"
+      ]
+    },
+    {
+      "id": "p-desiree-nick",
+      "name": "Désirée Nick",
+      "category": "boulevard",
+      "names": [
+        "Désirée Nick"
+      ]
+    },
+    {
+      "id": "p-elena-miras",
+      "name": "Elena Miras",
+      "category": "boulevard",
+      "names": [
+        "Elena Miras"
+      ]
+    },
+    {
+      "id": "p-evelyn-burdecki",
+      "name": "Evelyn Burdecki",
+      "category": "boulevard",
+      "names": [
+        "Evelyn Burdecki"
+      ]
+    },
+    {
+      "id": "p-georgina-fleur",
+      "name": "Georgina Fleur",
+      "category": "boulevard",
+      "names": [
+        "Georgina Fleur"
+      ]
+    },
+    {
+      "id": "p-gina-lisa-lohfink",
+      "name": "Gina-Lisa Lohfink",
+      "category": "boulevard",
+      "names": [
+        "Gina-Lisa Lohfink"
+      ]
+    },
+    {
+      "id": "p-harald-gloeoeckler",
+      "name": "Harald Glööckler",
+      "category": "boulevard",
+      "names": [
+        "Harald Glööckler"
+      ]
+    },
+    {
+      "id": "p-jenny-elvers",
+      "name": "Jenny Elvers",
+      "category": "boulevard",
+      "names": [
+        "Jenny Elvers"
+      ]
+    },
+    {
+      "id": "p-jens-buechner",
+      "name": "Jens Büchner",
+      "category": "boulevard",
+      "names": [
+        "Jens Büchner"
+      ]
+    },
+    {
+      "id": "p-juergen-milski",
+      "name": "Jürgen Milski",
+      "category": "boulevard",
+      "names": [
+        "Jürgen Milski"
+      ]
+    },
+    {
+      "id": "p-kader-loth",
+      "name": "Kader Loth",
+      "category": "boulevard",
+      "names": [
+        "Kader Loth"
+      ]
+    },
+    {
+      "id": "p-matthias-mangiapane",
+      "name": "Matthias Mangiapane",
+      "category": "boulevard",
+      "names": [
+        "Matthias Mangiapane"
+      ]
+    },
+    {
+      "id": "p-menowin-froehlich",
+      "name": "Menowin Fröhlich",
+      "category": "boulevard",
+      "names": [
+        "Menowin Fröhlich"
+      ]
+    },
+    {
+      "id": "p-micaela-schaefer",
+      "name": "Micaela Schäfer",
+      "category": "boulevard",
+      "names": [
+        "Micaela Schäfer"
+      ]
+    },
+    {
+      "id": "p-naddel",
+      "name": "Naddel",
+      "category": "boulevard",
+      "names": [
+        "Naddel",
+        "Nadja Abd el Farrag"
+      ]
+    },
+    {
+      "id": "p-prinz-frederic-von-anhalt",
+      "name": "Prinz Frédéric von Anhalt",
+      "category": "boulevard",
+      "names": [
+        "Prinz Frédéric von Anhalt",
+        "Frédéric von Anhalt"
+      ]
+    },
+    {
+      "id": "p-robert-geiss",
+      "name": "Robert Geiss",
+      "category": "boulevard",
+      "names": [
+        "Robert Geiss"
+      ]
+    },
+    {
+      "id": "p-sarah-knappik",
+      "name": "Sarah Knappik",
+      "category": "boulevard",
+      "names": [
+        "Sarah Knappik"
+      ]
+    },
+    {
+      "id": "p-silvia-wollny",
+      "name": "Silvia Wollny",
+      "category": "boulevard",
+      "names": [
+        "Silvia Wollny"
+      ]
+    },
+    {
+      "id": "p-sophia-thomalla",
+      "name": "Sophia Thomalla",
+      "category": "boulevard",
+      "names": [
+        "Sophia Thomalla"
+      ]
+    },
+    {
+      "id": "p-verona-pooth",
+      "name": "Verona Pooth",
+      "category": "boulevard",
+      "names": [
+        "Verona Pooth"
+      ]
+    },
+    {
+      "id": "p-bibi-classen",
+      "name": "Bibi Claßen",
+      "category": "influencer",
+      "names": [
+        "Bibi Claßen",
+        "Bianca Claßen",
+        "BibisBeautyPalace"
+      ]
+    },
+    {
+      "id": "p-caro-daur",
+      "name": "Caro Daur",
+      "category": "influencer",
+      "names": [
+        "Caro Daur"
+      ]
+    },
+    {
+      "id": "p-cathy-hummels",
+      "name": "Cathy Hummels",
+      "category": "influencer",
+      "names": [
+        "Cathy Hummels"
+      ]
+    },
+    {
+      "id": "p-christian-wolf",
+      "name": "Christian Wolf",
+      "category": "influencer",
+      "names": [
+        "Christian Wolf"
+      ],
+      "verifiedOnly": true
+    },
+    {
+      "id": "p-drachenlord",
+      "name": "Drachenlord",
+      "category": "influencer",
+      "names": [
+        "Drachenlord"
+      ]
+    },
+    {
+      "id": "p-fynn-kliemann",
+      "name": "Fynn Kliemann",
+      "category": "influencer",
+      "names": [
+        "Fynn Kliemann"
+      ]
+    },
+    {
+      "id": "p-jeremy-fragrance",
+      "name": "Jeremy Fragrance",
+      "category": "influencer",
+      "names": [
+        "Jeremy Fragrance"
+      ]
+    },
+    {
+      "id": "p-julienco",
+      "name": "Julienco",
+      "category": "influencer",
+      "names": [
+        "Julienco"
+      ]
+    },
+    {
+      "id": "p-katja-krasavice",
+      "name": "Katja Krasavice",
+      "category": "influencer",
+      "names": [
+        "Katja Krasavice"
+      ]
+    },
+    {
+      "id": "p-leon-machere",
+      "name": "Leon Machère",
+      "category": "influencer",
+      "names": [
+        "Leon Machère"
+      ]
+    },
+    {
+      "id": "p-montanablack",
+      "name": "MontanaBlack",
+      "category": "influencer",
+      "names": [
+        "MontanaBlack",
+        "MontanaBlack88"
+      ]
+    },
+    {
+      "id": "p-twenty4tim",
+      "name": "Twenty4Tim",
+      "category": "influencer",
+      "names": [
+        "Twenty4Tim"
+      ]
+    },
+    {
+      "id": "p-andreas-gabalier",
+      "name": "Andreas Gabalier",
+      "category": "musik",
+      "names": [
+        "Andreas Gabalier"
+      ]
+    },
+    {
+      "id": "p-bushido",
+      "name": "Bushido",
+      "category": "musik",
+      "names": [
+        "Bushido"
+      ]
+    },
+    {
+      "id": "p-capital-bra",
+      "name": "Capital Bra",
+      "category": "musik",
+      "names": [
+        "Capital Bra"
+      ]
+    },
+    {
+      "id": "p-gil-ofarim",
+      "name": "Gil Ofarim",
+      "category": "musik",
+      "names": [
+        "Gil Ofarim"
+      ]
+    },
+    {
+      "id": "p-heino",
+      "name": "Heino",
+      "category": "musik",
+      "names": [
+        "Heino"
+      ]
+    },
+    {
+      "id": "p-ikke-hueftgold",
+      "name": "Ikke Hüftgold",
+      "category": "musik",
+      "names": [
+        "Ikke Hüftgold"
+      ]
+    },
+    {
+      "id": "p-juergen-drews",
+      "name": "Jürgen Drews",
+      "category": "musik",
+      "names": [
+        "Jürgen Drews"
+      ]
+    },
+    {
+      "id": "p-michael-wendler",
+      "name": "Michael Wendler",
+      "category": "musik",
+      "names": [
+        "Michael Wendler"
+      ]
+    },
+    {
+      "id": "p-pietro-lombardi",
+      "name": "Pietro Lombardi",
+      "category": "musik",
+      "names": [
+        "Pietro Lombardi"
+      ]
+    },
+    {
+      "id": "p-till-lindemann",
+      "name": "Till Lindemann",
+      "category": "musik",
+      "names": [
+        "Till Lindemann"
+      ]
+    },
+    {
+      "id": "p-boris-becker",
+      "name": "Boris Becker",
+      "category": "sport",
+      "names": [
+        "Boris Becker"
+      ]
+    },
+    {
+      "id": "p-lothar-matthaeus",
+      "name": "Lothar Matthäus",
+      "category": "sport",
+      "names": [
+        "Lothar Matthäus"
+      ]
+    },
+    {
+      "id": "p-mario-basler",
+      "name": "Mario Basler",
+      "category": "sport",
+      "names": [
+        "Mario Basler"
+      ]
+    },
+    {
+      "id": "p-ralf-schumacher",
+      "name": "Ralf Schumacher",
+      "category": "sport",
+      "names": [
+        "Ralf Schumacher"
+      ]
+    },
+    {
+      "id": "p-stefan-effenberg",
+      "name": "Stefan Effenberg",
+      "category": "sport",
+      "names": [
+        "Stefan Effenberg"
+      ]
+    },
+    {
+      "id": "p-carsten-maschmeyer",
+      "name": "Carsten Maschmeyer",
+      "category": "wirtschaft",
+      "names": [
+        "Carsten Maschmeyer"
+      ]
+    },
+    {
+      "id": "p-frank-thelen",
+      "name": "Frank Thelen",
+      "category": "wirtschaft",
+      "names": [
+        "Frank Thelen"
+      ]
+    },
+    {
+      "id": "p-manuel-ostermann",
+      "name": "Manuel Ostermann",
+      "category": "verbaende",
+      "names": [
+        "Manuel Ostermann"
+      ],
+      "verifiedOnly": true
+    },
+    {
+      "id": "p-rainer-wendt",
+      "name": "Rainer Wendt",
+      "category": "verbaende",
+      "names": [
+        "Rainer Wendt"
+      ],
+      "verifiedOnly": true
+    },
+    {
+      "id": "p-benjamin-netanjahu",
+      "name": "Benjamin Netanjahu",
+      "category": "international",
+      "names": [
+        "Benjamin Netanjahu",
+        "Benjamin Netanyahu"
+      ]
+    },
+    {
+      "id": "p-charlie-kirk",
+      "name": "Charlie Kirk",
+      "category": "international",
+      "names": [
+        "Charlie Kirk"
+      ],
+      "verifiedOnly": true
+    },
+    {
+      "id": "p-dan-bongino",
+      "name": "Dan Bongino",
+      "category": "international",
+      "names": [
+        "Dan Bongino"
+      ]
+    },
+    {
+      "id": "p-donald-trump",
+      "name": "Donald Trump",
+      "category": "international",
+      "names": [
+        "Donald Trump",
+        "Donald J. Trump"
+      ]
+    },
+    {
+      "id": "p-donald-trump-jr",
+      "name": "Donald Trump Jr.",
+      "category": "international",
+      "names": [
+        "Donald Trump Jr.",
+        "Donald J. Trump Jr.",
+        "Don Jr."
+      ]
+    },
+    {
+      "id": "p-elon-musk",
+      "name": "Elon Musk",
+      "category": "international",
+      "names": [
+        "Elon Musk"
+      ]
+    },
+    {
+      "id": "p-emmanuel-macron",
+      "name": "Emmanuel Macron",
+      "category": "international",
+      "names": [
+        "Emmanuel Macron"
+      ]
+    },
+    {
+      "id": "p-eric-trump",
+      "name": "Eric Trump",
+      "category": "international",
+      "names": [
+        "Eric Trump"
+      ]
+    },
+    {
+      "id": "p-ivanka-trump",
+      "name": "Ivanka Trump",
+      "category": "international",
+      "names": [
+        "Ivanka Trump"
+      ]
+    },
+    {
+      "id": "p-jared-kushner",
+      "name": "Jared Kushner",
+      "category": "international",
+      "names": [
+        "Jared Kushner"
+      ]
+    },
+    {
+      "id": "p-jd-vance",
+      "name": "JD Vance",
+      "category": "international",
+      "names": [
+        "JD Vance",
+        "J.D. Vance",
+        "J. D. Vance"
+      ]
+    },
+    {
+      "id": "p-joe-biden",
+      "name": "Joe Biden",
+      "category": "international",
+      "names": [
+        "Joe Biden",
+        "Joseph R. Biden"
+      ]
+    },
+    {
+      "id": "p-karoline-leavitt",
+      "name": "Karoline Leavitt",
+      "category": "international",
+      "names": [
+        "Karoline Leavitt"
+      ]
+    },
+    {
+      "id": "p-kash-patel",
+      "name": "Kash Patel",
+      "category": "international",
+      "names": [
+        "Kash Patel",
+        "Kashyap Patel"
+      ],
+      "verifiedOnly": true
+    },
+    {
+      "id": "p-kristi-noem",
+      "name": "Kristi Noem",
+      "category": "international",
+      "names": [
+        "Kristi Noem",
+        "Governor Kristi Noem"
+      ]
+    },
+    {
+      "id": "p-lindsey-graham",
+      "name": "Lindsey Graham",
+      "category": "international",
+      "names": [
+        "Lindsey Graham",
+        "Senator Lindsey Graham"
+      ],
+      "verifiedOnly": true
+    },
+    {
+      "id": "p-marco-rubio",
+      "name": "Marco Rubio",
+      "category": "international",
+      "names": [
+        "Marco Rubio"
+      ]
+    },
+    {
+      "id": "p-matt-gaetz",
+      "name": "Matt Gaetz",
+      "category": "international",
+      "names": [
+        "Matt Gaetz"
+      ]
+    },
+    {
+      "id": "p-michael-flynn",
+      "name": "Michael Flynn",
+      "category": "international",
+      "names": [
+        "Michael Flynn",
+        "Michael T. Flynn",
+        "General Mike Flynn"
+      ],
+      "verifiedOnly": true
+    },
+    {
+      "id": "p-mike-johnson",
+      "name": "Mike Johnson",
+      "category": "international",
+      "names": [
+        "Mike Johnson",
+        "Speaker Mike Johnson"
+      ],
+      "verifiedOnly": true
+    },
+    {
+      "id": "p-pam-bondi",
+      "name": "Pam Bondi",
+      "category": "international",
+      "names": [
+        "Pam Bondi",
+        "Pamela Bondi"
+      ]
+    },
+    {
+      "id": "p-pete-hegseth",
+      "name": "Pete Hegseth",
+      "category": "international",
+      "names": [
+        "Pete Hegseth",
+        "Peter Hegseth"
+      ]
+    },
+    {
+      "id": "p-peter-thiel",
+      "name": "Peter Thiel",
+      "category": "international",
+      "names": [
+        "Peter Thiel"
+      ]
+    },
+    {
+      "id": "p-robert-f-kennedy-jr",
+      "name": "Robert F. Kennedy Jr.",
+      "category": "international",
+      "names": [
+        "Robert F. Kennedy Jr.",
+        "RFK Jr.",
+        "Robert F Kennedy Jr",
+        "Robert Kennedy Jr."
+      ]
+    },
+    {
+      "id": "p-roger-stone",
+      "name": "Roger Stone",
+      "category": "international",
+      "names": [
+        "Roger Stone",
+        "Roger J. Stone"
+      ],
+      "verifiedOnly": true
+    },
+    {
+      "id": "p-rudy-giuliani",
+      "name": "Rudy Giuliani",
+      "category": "international",
+      "names": [
+        "Rudy Giuliani",
+        "Rudolph Giuliani",
+        "Rudolph W. Giuliani"
+      ]
+    },
+    {
+      "id": "p-russell-vought",
+      "name": "Russell Vought",
+      "category": "international",
+      "names": [
+        "Russell Vought",
+        "Russ Vought"
+      ]
+    },
+    {
+      "id": "p-stephen-miller",
+      "name": "Stephen Miller",
+      "category": "international",
+      "names": [
+        "Stephen Miller"
+      ],
+      "verifiedOnly": true
+    },
+    {
+      "id": "p-steve-bannon",
+      "name": "Steve Bannon",
+      "category": "international",
+      "names": [
+        "Steve Bannon",
+        "Stephen K. Bannon",
+        "Stephen Bannon"
+      ]
+    },
+    {
+      "id": "p-susie-wiles",
+      "name": "Susie Wiles",
+      "category": "international",
+      "names": [
+        "Susie Wiles"
+      ]
+    },
+    {
+      "id": "p-tom-homan",
+      "name": "Tom Homan",
+      "category": "international",
+      "names": [
+        "Tom Homan"
+      ],
+      "verifiedOnly": true
+    },
+    {
+      "id": "p-tucker-carlson",
+      "name": "Tucker Carlson",
+      "category": "international",
+      "names": [
+        "Tucker Carlson"
+      ]
+    },
+    {
+      "id": "p-tulsi-gabbard",
+      "name": "Tulsi Gabbard",
+      "category": "international",
+      "names": [
+        "Tulsi Gabbard"
+      ]
+    },
+    {
+      "id": "p-viktor-orban",
+      "name": "Viktor Orbán",
+      "category": "international",
+      "names": [
+        "Viktor Orbán"
+      ]
+    },
+    {
+      "id": "p-vivek-ramaswamy",
+      "name": "Vivek Ramaswamy",
+      "category": "international",
+      "names": [
+        "Vivek Ramaswamy"
+      ]
+    },
+    {
+      "id": "p-wladimir-putin",
+      "name": "Wladimir Putin",
+      "category": "international",
+      "names": [
+        "Wladimir Putin",
+        "Vladimir Putin"
+      ]
+    },
+    {
+      "id": "p-wolodymyr-selenskyj",
+      "name": "Wolodymyr Selenskyj",
+      "category": "international",
+      "names": [
+        "Wolodymyr Selenskyj",
+        "Wolodymyr Selenskyi",
+        "Volodymyr Zelenskyy",
+        "Volodymyr Zelensky"
+      ]
+    },
+    {
+      "id": "p-adolf-hitler",
+      "name": "Adolf Hitler",
+      "category": "historisch",
+      "names": [
+        "Adolf Hitler"
+      ]
+    }
+  ],
+  "hashed": {
+    "salt": "mir-reichts-v1",
+    "items": []
+  },
+  "wordLists": [
+    {
+      "id": "erw-partei",
+      "name": "Erwähnungen: Parteien",
+      "description": "Blendet Beiträge aus, die eine dieser Parteien erwähnen, auch Berichte und Kritik.",
+      "default": true,
+      "words": [
+        {
+          "text": "AfD",
+          "mode": "exact"
+        },
+        {
+          "text": "Alternative für Deutschland",
+          "mode": "exact"
+        }
+      ]
+    },
+    {
+      "id": "erw-medium",
+      "name": "Erwähnungen: Medien",
+      "description": "Blendet Beiträge aus, die eines dieser Medien erwähnen. „Bild“ und „Welt“ als normale Wörter bleiben sichtbar.",
+      "default": true,
+      "words": [
+        {
+          "text": "BILD",
+          "case": true
+        },
+        {
+          "text": "Bild am Sonntag",
+          "mode": "exact"
+        },
+        {
+          "text": "Bild-Zeitung",
+          "mode": "forms"
+        },
+        {
+          "text": "bild.de",
+          "mode": "exact"
+        },
+        {
+          "text": "Bildzeitung",
+          "mode": "forms"
+        },
+        {
+          "text": "Business Insider",
+          "mode": "exact"
+        },
+        {
+          "text": "bz-berlin.de",
+          "mode": "exact"
+        },
+        {
+          "text": "Politico",
+          "mode": "exact"
+        },
+        {
+          "text": "The Telegraph",
+          "mode": "exact"
+        },
+        {
+          "text": "WELT",
+          "case": true
+        },
+        {
+          "text": "Welt am Sonntag",
+          "mode": "exact"
+        },
+        {
+          "text": "welt.de",
+          "mode": "exact"
+        }
+      ]
+    },
+    {
+      "id": "erw-magazine",
+      "name": "Erwähnungen: Magazine und Onlineportale",
+      "description": "Blendet Beiträge aus, die eines dieser Medien erwähnen, auch Berichte und Kritik.",
+      "default": true,
+      "words": [
+        {
+          "text": "ansage.org",
+          "mode": "exact"
+        },
+        {
+          "text": "Apollo News",
+          "mode": "exact"
+        },
+        {
+          "text": "AUF1",
+          "mode": "exact"
+        },
+        {
+          "text": "COMPACT",
+          "case": true
+        },
+        {
+          "text": "Compact-Magazin",
+          "mode": "exact"
+        },
+        {
+          "text": "Deutschland-Kurier",
+          "mode": "exact"
+        },
+        {
+          "text": "Deutschlandkurier",
+          "mode": "exact"
+        },
+        {
+          "text": "Epoch Times",
+          "mode": "exact"
+        },
+        {
+          "text": "Freilich-Magazin",
+          "mode": "exact"
+        },
+        {
+          "text": "Heimatkurier",
+          "mode": "exact"
+        },
+        {
+          "text": "Info-Direkt",
+          "mode": "exact"
+        },
+        {
+          "text": "Journalistenwatch",
+          "mode": "exact"
+        },
+        {
+          "text": "JouWatch",
+          "mode": "exact"
+        },
+        {
+          "text": "Junge Freiheit",
+          "mode": "exact"
+        },
+        {
+          "text": "Kopp Report",
+          "mode": "exact"
+        },
+        {
+          "text": "Kopp-Verlag",
+          "mode": "exact"
+        },
+        {
+          "text": "Krautzone",
+          "mode": "exact"
+        },
+        {
+          "text": "Nius",
+          "mode": "exact"
+        },
+        {
+          "text": "Opposition24",
+          "mode": "exact"
+        },
+        {
+          "text": "Philosophia Perennis",
+          "mode": "exact"
+        },
+        {
+          "text": "PI-News",
+          "mode": "exact"
+        },
+        {
+          "text": "Reitschuster",
+          "mode": "exact"
+        },
+        {
+          "text": "Tichys Einblick",
+          "mode": "exact"
+        },
+        {
+          "text": "Unser Mitteleuropa",
+          "mode": "exact"
+        }
+      ]
+    },
+    {
+      "id": "erw-zeitschriften",
+      "name": "Erwähnungen: Zeitschriften und Schriften",
+      "description": "Blendet Beiträge aus, die eine dieser Publikationen erwähnen, auch Berichte und Kritik.",
+      "default": true,
+      "words": [
+        {
+          "text": "Deutsche Stimme",
+          "case": true
+        },
+        {
+          "text": "National-Zeitung",
+          "mode": "exact"
+        }
+      ]
+    },
+    {
+      "id": "erw-organisationen",
+      "name": "Erwähnungen: Organisationen und Netzwerke",
+      "description": "Blendet Beiträge aus, die eine dieser Organisationen erwähnen, auch Berichte und Kritik.",
+      "default": true,
+      "words": [
+        {
+          "text": "Antaios",
+          "mode": "exact"
+        },
+        {
+          "text": "Freie Sachsen",
+          "mode": "exact"
+        },
+        {
+          "text": "Identitäre",
+          "mode": "forms"
+        },
+        {
+          "text": "III. Weg",
+          "mode": "exact"
+        },
+        {
+          "text": "Institut für Staatspolitik",
+          "mode": "exact"
+        },
+        {
+          "text": "Junge Nationalisten",
+          "mode": "forms"
+        },
+        {
+          "text": "NPD",
+          "mode": "exact"
+        },
+        {
+          "text": "Reichsbürger",
+          "mode": "forms"
+        }
+      ]
+    },
+    {
+      "id": "erw-onlinekanaele",
+      "name": "Erwähnungen: Onlinekanäle und Personen",
+      "description": "Blendet Beiträge aus, die eine dieser Personen oder eines dieser Medien erwähnen, auch Berichte und Kritik.",
+      "default": true,
+      "words": [
+        {
+          "text": "Apolut",
+          "mode": "exact"
+        },
+        {
+          "text": "Attila Hildmann",
+          "mode": "forms"
+        },
+        {
+          "text": "Eva Herman",
+          "mode": "exact"
+        },
+        {
+          "text": "Hildmann",
+          "mode": "forms"
+        },
+        {
+          "text": "Jebsen",
+          "mode": "forms"
+        },
+        {
+          "text": "Ken Jebsen",
+          "mode": "forms"
+        },
+        {
+          "text": "KenFM",
+          "mode": "exact"
+        },
+        {
+          "text": "Kla.TV",
+          "mode": "exact"
+        },
+        {
+          "text": "Klagemauer.TV",
+          "mode": "exact"
+        }
+      ]
+    },
+    {
+      "id": "erw-politiker",
+      "name": "Erwähnungen: Politiker",
+      "description": "Blendet Beiträge aus, in denen diese Personen genannt werden, auch Berichte über sie. Unverwechselbare Nachnamen reichen.",
+      "default": true,
+      "words": [
+        {
+          "text": "Aigner",
+          "mode": "forms"
+        },
+        {
+          "text": "Alexander Dobrindt",
+          "mode": "forms"
+        },
+        {
+          "text": "Alexander Gauland",
+          "mode": "forms"
+        },
+        {
+          "text": "Alice Weidel",
+          "mode": "forms"
+        },
+        {
+          "text": "Altmaier",
+          "mode": "forms"
+        },
+        {
+          "text": "Amthor",
+          "mode": "forms"
+        },
+        {
+          "text": "Andreas Jurca",
+          "mode": "forms"
+        },
+        {
+          "text": "Andreas Lichert",
+          "mode": "forms"
+        },
+        {
+          "text": "Andreas Scheuer",
+          "mode": "forms"
+        },
+        {
+          "text": "Angela Merkel",
+          "mode": "forms"
+        },
+        {
+          "text": "Annegret Kramp-Karrenbauer",
+          "mode": "forms"
+        },
+        {
+          "text": "Armin Laschet",
+          "mode": "forms"
+        },
+        {
+          "text": "Beatrix von Storch",
+          "mode": "forms"
+        },
+        {
+          "text": "Bilger",
+          "mode": "forms"
+        },
+        {
+          "text": "Björn Höcke",
+          "mode": "forms"
+        },
+        {
+          "text": "Bouffier",
+          "mode": "forms"
+        },
+        {
+          "text": "Brandner",
+          "mode": "forms"
+        },
+        {
+          "text": "Brinker",
+          "mode": "forms"
+        },
+        {
+          "text": "Carsten Linnemann",
+          "mode": "forms"
+        },
+        {
+          "text": "Christian Lindner",
+          "mode": "forms"
+        },
+        {
+          "text": "Christian Wulff",
+          "mode": "forms"
+        },
+        {
+          "text": "Chrupalla",
+          "mode": "forms"
+        },
+        {
+          "text": "Curio",
+          "mode": "forms"
+        },
+        {
+          "text": "Daniel Günther",
+          "mode": "forms"
+        },
+        {
+          "text": "Daniel Halemba",
+          "mode": "forms"
+        },
+        {
+          "text": "David McAllister",
+          "mode": "forms"
+        },
+        {
+          "text": "Dirk Nockemann",
+          "mode": "forms"
+        },
+        {
+          "text": "Dobrindt",
+          "mode": "forms"
+        },
+        {
+          "text": "Dorothee Bär",
+          "mode": "forms"
+        },
+        {
+          "text": "Ebner-Steiner",
+          "mode": "forms"
+        },
+        {
+          "text": "Edmund Stoiber",
+          "mode": "forms"
+        },
+        {
+          "text": "Frank-Christian Hansel",
+          "mode": "forms"
+        },
+        {
+          "text": "Friedrich Merz",
+          "mode": "forms"
+        },
+        {
+          "text": "Frohnmaier",
+          "mode": "forms"
+        },
+        {
+          "text": "Frömming",
+          "mode": "forms"
+        },
+        {
+          "text": "Gauland",
+          "mode": "forms"
+        },
+        {
+          "text": "Gauweiler",
+          "mode": "forms"
+        },
+        {
+          "text": "Gnauck",
+          "mode": "forms"
+        },
+        {
+          "text": "Gordon Schnieder",
+          "mode": "forms"
+        },
+        {
+          "text": "Gottfried Curio",
+          "mode": "forms"
+        },
+        {
+          "text": "Götz Frömming",
+          "mode": "forms"
+        },
+        {
+          "text": "Grütters",
+          "mode": "forms"
+        },
+        {
+          "text": "Gunnar Lindemann",
+          "mode": "forms"
+        },
+        {
+          "text": "Günther Oettinger",
+          "mode": "forms"
+        },
+        {
+          "text": "Guttenberg",
+          "mode": "forms"
+        },
+        {
+          "text": "Halemba",
+          "mode": "forms"
+        },
+        {
+          "text": "Hannes Gnauck",
+          "mode": "forms"
+        },
+        {
+          "text": "Hans-Christoph Berndt",
+          "mode": "forms"
+        },
+        {
+          "text": "Hans-Thomas Tillschneider",
+          "mode": "forms"
+        },
+        {
+          "text": "Hansel",
+          "mode": "forms"
+        },
+        {
+          "text": "Haseloff",
+          "mode": "forms"
+        },
+        {
+          "text": "Helferich",
+          "mode": "forms"
+        },
+        {
+          "text": "Hendrik Streeck",
+          "mode": "forms"
+        },
+        {
+          "text": "Hendrik Wüst",
+          "mode": "forms"
+        },
+        {
+          "text": "Hilse",
+          "mode": "forms"
+        },
+        {
+          "text": "Höcke",
+          "mode": "forms"
+        },
+        {
+          "text": "Hohloch",
+          "mode": "forms"
+        },
+        {
+          "text": "Horst Seehofer",
+          "mode": "forms"
+        },
+        {
+          "text": "Ilse Aigner",
+          "mode": "forms"
+        },
+        {
+          "text": "Ingo Senftleben",
+          "mode": "forms"
+        },
+        {
+          "text": "Jens Spahn",
+          "mode": "forms"
+        },
+        {
+          "text": "Jörg Prophet",
+          "mode": "forms"
+        },
+        {
+          "text": "Julia Klöckner",
+          "mode": "forms"
+        },
+        {
+          "text": "Jurca",
+          "mode": "forms"
+        },
+        {
+          "text": "Karin Prien",
+          "mode": "forms"
+        },
+        {
+          "text": "Karl-Theodor zu Guttenberg",
+          "mode": "forms"
+        },
+        {
+          "text": "Karsten Hilse",
+          "mode": "forms"
+        },
+        {
+          "text": "Katrin Ebner-Steiner",
+          "mode": "forms"
+        },
+        {
+          "text": "Klöckner",
+          "mode": "forms"
+        },
+        {
+          "text": "Kotré",
+          "mode": "forms"
+        },
+        {
+          "text": "Krah",
+          "mode": "forms"
+        },
+        {
+          "text": "Kramp-Karrenbauer",
+          "mode": "forms"
+        },
+        {
+          "text": "Kristin Brinker",
+          "mode": "forms"
+        },
+        {
+          "text": "Lambrou",
+          "mode": "forms"
+        },
+        {
+          "text": "Laschet",
+          "mode": "forms"
+        },
+        {
+          "text": "Leif-Erik Holm",
+          "mode": "forms"
+        },
+        {
+          "text": "Lena Kotré",
+          "mode": "forms"
+        },
+        {
+          "text": "Lichert",
+          "mode": "forms"
+        },
+        {
+          "text": "Lindner",
+          "mode": "forms"
+        },
+        {
+          "text": "Linnemann",
+          "mode": "forms"
+        },
+        {
+          "text": "Lucassen",
+          "mode": "forms"
+        },
+        {
+          "text": "Markus Frohnmaier",
+          "mode": "forms"
+        },
+        {
+          "text": "Markus Söder",
+          "mode": "forms"
+        },
+        {
+          "text": "Martin E. Renner",
+          "mode": "forms"
+        },
+        {
+          "text": "Martin Vincentz",
+          "mode": "forms"
+        },
+        {
+          "text": "Matthias Helferich",
+          "mode": "forms"
+        },
+        {
+          "text": "Maximilian Krah",
+          "mode": "forms"
+        },
+        {
+          "text": "McAllister",
+          "mode": "forms"
+        },
+        {
+          "text": "Merkel",
+          "mode": "forms"
+        },
+        {
+          "text": "Merz",
+          "mode": "forms"
+        },
+        {
+          "text": "Monika Grütters",
+          "mode": "forms"
+        },
+        {
+          "text": "Muhsal",
+          "mode": "forms"
+        },
+        {
+          "text": "Münzenmaier",
+          "mode": "forms"
+        },
+        {
+          "text": "Nikolaus Kramer",
+          "mode": "forms"
+        },
+        {
+          "text": "Nockemann",
+          "mode": "forms"
+        },
+        {
+          "text": "Norbert Röttgen",
+          "mode": "forms"
+        },
+        {
+          "text": "Peter Altmaier",
+          "mode": "forms"
+        },
+        {
+          "text": "Peter Boehringer",
+          "mode": "forms"
+        },
+        {
+          "text": "Peter Gauweiler",
+          "mode": "forms"
+        },
+        {
+          "text": "Peter Ramsauer",
+          "mode": "forms"
+        },
+        {
+          "text": "Philipp Amthor",
+          "mode": "forms"
+        },
+        {
+          "text": "Protschka",
+          "mode": "forms"
+        },
+        {
+          "text": "Ramsauer",
+          "mode": "forms"
+        },
+        {
+          "text": "Reiner Haseloff",
+          "mode": "forms"
+        },
+        {
+          "text": "Robert Lambrou",
+          "mode": "forms"
+        },
+        {
+          "text": "Röttgen",
+          "mode": "forms"
+        },
+        {
+          "text": "Rüdiger Lucassen",
+          "mode": "forms"
+        },
+        {
+          "text": "Schäuble",
+          "mode": "forms"
+        },
+        {
+          "text": "Schnieder",
+          "mode": "forms"
+        },
+        {
+          "text": "Sebastian Münzenmaier",
+          "mode": "forms"
+        },
+        {
+          "text": "Seehofer",
+          "mode": "forms"
+        },
+        {
+          "text": "Senftleben",
+          "mode": "forms"
+        },
+        {
+          "text": "Serap Güler",
+          "mode": "forms"
+        },
+        {
+          "text": "Söder",
+          "mode": "forms"
+        },
+        {
+          "text": "Spahn",
+          "mode": "forms"
+        },
+        {
+          "text": "Steffen Bilger",
+          "mode": "forms"
+        },
+        {
+          "text": "Stephan Brandner",
+          "mode": "forms"
+        },
+        {
+          "text": "Stephan Protschka",
+          "mode": "forms"
+        },
+        {
+          "text": "Stoiber",
+          "mode": "forms"
+        },
+        {
+          "text": "Streeck",
+          "mode": "forms"
+        },
+        {
+          "text": "Sven Tritschler",
+          "mode": "forms"
+        },
+        {
+          "text": "Theo Waigel",
+          "mode": "forms"
+        },
+        {
+          "text": "Tillschneider",
+          "mode": "forms"
+        },
+        {
+          "text": "Tino Chrupalla",
+          "mode": "forms"
+        },
+        {
+          "text": "Tritschler",
+          "mode": "forms"
+        },
+        {
+          "text": "Ulrich Siegmund",
+          "mode": "forms"
+        },
+        {
+          "text": "Ursula von der Leyen",
+          "mode": "forms"
+        },
+        {
+          "text": "Vincentz",
+          "mode": "forms"
+        },
+        {
+          "text": "Volker Bouffier",
+          "mode": "forms"
+        },
+        {
+          "text": "von der Leyen",
+          "mode": "forms"
+        },
+        {
+          "text": "von Storch",
+          "mode": "forms"
+        },
+        {
+          "text": "Waigel",
+          "mode": "forms"
+        },
+        {
+          "text": "Weidel",
+          "mode": "forms"
+        },
+        {
+          "text": "Wiebke Muhsal",
+          "mode": "forms"
+        },
+        {
+          "text": "Wolfgang Schäuble",
+          "mode": "forms"
+        }
+      ]
+    },
+    {
+      "id": "erw-fernsehen",
+      "name": "Erwähnungen: Fernsehen und Comedy",
+      "description": "Blendet Beiträge aus, in denen diese Personen genannt werden, auch Berichte über sie. Unverwechselbare Nachnamen reichen.",
+      "default": true,
+      "words": [
+        {
+          "text": "Bohlen",
+          "mode": "forms"
+        },
+        {
+          "text": "Constantin Schreiber",
+          "mode": "forms"
+        },
+        {
+          "text": "Dieter Bohlen",
+          "mode": "forms"
+        },
+        {
+          "text": "Dieter Nuhr",
+          "mode": "forms"
+        },
+        {
+          "text": "Gottschalk",
+          "mode": "forms"
+        },
+        {
+          "text": "Günther Jauch",
+          "mode": "forms"
+        },
+        {
+          "text": "Harald Krassnitzer",
+          "mode": "forms"
+        },
+        {
+          "text": "Heidi Klum",
+          "mode": "forms"
+        },
+        {
+          "text": "Jauch",
+          "mode": "forms"
+        },
+        {
+          "text": "Klum",
+          "mode": "forms"
+        },
+        {
+          "text": "Krassnitzer",
+          "mode": "forms"
+        },
+        {
+          "text": "Mario Barth",
+          "mode": "forms"
+        },
+        {
+          "text": "Markus Lanz",
+          "mode": "forms"
+        },
+        {
+          "text": "Nuhr",
+          "mode": "forms"
+        },
+        {
+          "text": "Oliver Pocher",
+          "mode": "forms"
+        },
+        {
+          "text": "Pocher",
+          "mode": "forms"
+        },
+        {
+          "text": "Thomas Gottschalk",
+          "mode": "forms"
+        }
+      ]
+    },
+    {
+      "id": "erw-boulevard",
+      "name": "Erwähnungen: Reality-TV und Boulevard",
+      "description": "Blendet Beiträge aus, in denen diese Personen genannt werden, auch Berichte über sie. Unverwechselbare Nachnamen reichen.",
+      "default": true,
+      "words": [
+        {
+          "text": "Burdecki",
+          "mode": "forms"
+        },
+        {
+          "text": "Carmen Geiss",
+          "mode": "forms"
+        },
+        {
+          "text": "Citiolo",
+          "mode": "forms"
+        },
+        {
+          "text": "Claudia Obert",
+          "mode": "forms"
+        },
+        {
+          "text": "Cora Schumacher",
+          "mode": "forms"
+        },
+        {
+          "text": "Cosimo Citiolo",
+          "mode": "forms"
+        },
+        {
+          "text": "Danni Büchner",
+          "mode": "forms"
+        },
+        {
+          "text": "Désirée Nick",
+          "mode": "forms"
+        },
+        {
+          "text": "Elena Miras",
+          "mode": "forms"
+        },
+        {
+          "text": "Evelyn Burdecki",
+          "mode": "forms"
+        },
+        {
+          "text": "Geissens",
+          "mode": "forms"
+        },
+        {
+          "text": "Georgina Fleur",
+          "mode": "forms"
+        },
+        {
+          "text": "Gina-Lisa Lohfink",
+          "mode": "forms"
+        },
+        {
+          "text": "Glööckler",
+          "mode": "forms"
+        },
+        {
+          "text": "Harald Glööckler",
+          "mode": "forms"
+        },
+        {
+          "text": "Jenny Elvers",
+          "mode": "forms"
+        },
+        {
+          "text": "Jens Büchner",
+          "mode": "forms"
+        },
+        {
+          "text": "Jürgen Milski",
+          "mode": "forms"
+        },
+        {
+          "text": "Kader Loth",
+          "mode": "forms"
+        },
+        {
+          "text": "Knappik",
+          "mode": "forms"
+        },
+        {
+          "text": "Lohfink",
+          "mode": "forms"
+        },
+        {
+          "text": "Mangiapane",
+          "mode": "forms"
+        },
+        {
+          "text": "Matthias Mangiapane",
+          "mode": "forms"
+        },
+        {
+          "text": "Menowin",
+          "mode": "forms"
+        },
+        {
+          "text": "Menowin Fröhlich",
+          "mode": "forms"
+        },
+        {
+          "text": "Micaela Schäfer",
+          "mode": "forms"
+        },
+        {
+          "text": "Milski",
+          "mode": "forms"
+        },
+        {
+          "text": "Naddel",
+          "mode": "forms"
+        },
+        {
+          "text": "Obert",
+          "mode": "forms"
+        },
+        {
+          "text": "Pooth",
+          "mode": "forms"
+        },
+        {
+          "text": "Prinz Frédéric von Anhalt",
+          "mode": "forms"
+        },
+        {
+          "text": "Robert Geiss",
+          "mode": "forms"
+        },
+        {
+          "text": "Sarah Knappik",
+          "mode": "forms"
+        },
+        {
+          "text": "Silvia Wollny",
+          "mode": "forms"
+        },
+        {
+          "text": "Sophia Thomalla",
+          "mode": "forms"
+        },
+        {
+          "text": "Thomalla",
+          "mode": "forms"
+        },
+        {
+          "text": "Verona Pooth",
+          "mode": "forms"
+        },
+        {
+          "text": "von Anhalt",
+          "mode": "forms"
+        },
+        {
+          "text": "Wollny",
+          "mode": "forms"
+        }
+      ]
+    },
+    {
+      "id": "erw-influencer",
+      "name": "Erwähnungen: Influencer und Streamer",
+      "description": "Blendet Beiträge aus, in denen diese Personen genannt werden, auch Berichte über sie. Unverwechselbare Nachnamen reichen.",
+      "default": true,
+      "words": [
+        {
+          "text": "Bibi Claßen",
+          "mode": "forms"
+        },
+        {
+          "text": "Caro Daur",
+          "mode": "forms"
+        },
+        {
+          "text": "Cathy Hummels",
+          "mode": "forms"
+        },
+        {
+          "text": "Drachenlord",
+          "mode": "forms"
+        },
+        {
+          "text": "Fynn Kliemann",
+          "mode": "forms"
+        },
+        {
+          "text": "Hummels",
+          "mode": "forms"
+        },
+        {
+          "text": "Jeremy Fragrance",
+          "mode": "forms"
+        },
+        {
+          "text": "Julienco",
+          "mode": "forms"
+        },
+        {
+          "text": "Katja Krasavice",
+          "mode": "forms"
+        },
+        {
+          "text": "Kliemann",
+          "mode": "forms"
+        },
+        {
+          "text": "Krasavice",
+          "mode": "forms"
+        },
+        {
+          "text": "Leon Machère",
+          "mode": "forms"
+        },
+        {
+          "text": "Machère",
+          "mode": "forms"
+        },
+        {
+          "text": "MontanaBlack",
+          "mode": "forms"
+        },
+        {
+          "text": "Twenty4Tim",
+          "mode": "forms"
+        }
+      ]
+    },
+    {
+      "id": "erw-musik",
+      "name": "Erwähnungen: Musik",
+      "description": "Blendet Beiträge aus, in denen diese Personen genannt werden, auch Berichte über sie. Unverwechselbare Nachnamen reichen.",
+      "default": true,
+      "words": [
+        {
+          "text": "Andreas Gabalier",
+          "mode": "forms"
+        },
+        {
+          "text": "Bushido",
+          "mode": "forms"
+        },
+        {
+          "text": "Capital Bra",
+          "mode": "forms"
+        },
+        {
+          "text": "Gabalier",
+          "mode": "forms"
+        },
+        {
+          "text": "Gil Ofarim",
+          "mode": "forms"
+        },
+        {
+          "text": "Heino",
+          "mode": "forms"
+        },
+        {
+          "text": "Ikke Hüftgold",
+          "mode": "forms"
+        },
+        {
+          "text": "Jürgen Drews",
+          "mode": "forms"
+        },
+        {
+          "text": "Lombardi",
+          "mode": "forms"
+        },
+        {
+          "text": "Michael Wendler",
+          "mode": "forms"
+        },
+        {
+          "text": "Ofarim",
+          "mode": "forms"
+        },
+        {
+          "text": "Pietro Lombardi",
+          "mode": "forms"
+        },
+        {
+          "text": "Till Lindemann",
+          "mode": "forms"
+        },
+        {
+          "text": "Wendler",
+          "mode": "forms"
+        }
+      ]
+    },
+    {
+      "id": "erw-sport",
+      "name": "Erwähnungen: Sport",
+      "description": "Blendet Beiträge aus, in denen diese Personen genannt werden, auch Berichte über sie. Unverwechselbare Nachnamen reichen.",
+      "default": true,
+      "words": [
+        {
+          "text": "Boris Becker",
+          "mode": "forms"
+        },
+        {
+          "text": "Effenberg",
+          "mode": "forms"
+        },
+        {
+          "text": "Lothar Matthäus",
+          "mode": "forms"
+        },
+        {
+          "text": "Mario Basler",
+          "mode": "forms"
+        },
+        {
+          "text": "Ralf Schumacher",
+          "mode": "forms"
+        },
+        {
+          "text": "Stefan Effenberg",
+          "mode": "forms"
+        }
+      ]
+    },
+    {
+      "id": "erw-wirtschaft",
+      "name": "Erwähnungen: Unternehmer",
+      "description": "Blendet Beiträge aus, in denen diese Personen genannt werden, auch Berichte über sie. Unverwechselbare Nachnamen reichen.",
+      "default": true,
+      "words": [
+        {
+          "text": "Carsten Maschmeyer",
+          "mode": "forms"
+        },
+        {
+          "text": "Frank Thelen",
+          "mode": "forms"
+        },
+        {
+          "text": "Maschmeyer",
+          "mode": "forms"
+        },
+        {
+          "text": "Thelen",
+          "mode": "forms"
+        }
+      ]
+    },
+    {
+      "id": "erw-international",
+      "name": "Erwähnungen: Internationale Politik",
+      "description": "Blendet Beiträge aus, in denen diese Personen genannt werden, auch Berichte über sie. Unverwechselbare Nachnamen reichen, etwa „Trump“ oder „Musk“; Allerweltsnamen sind ausgenommen.",
+      "default": true,
+      "words": [
+        {
+          "text": "Bannon",
+          "mode": "forms"
+        },
+        {
+          "text": "Biden",
+          "mode": "forms"
+        },
+        {
+          "text": "Bongino",
+          "mode": "forms"
+        },
+        {
+          "text": "Eric Trump",
+          "mode": "forms"
+        },
+        {
+          "text": "Gabbard",
+          "mode": "forms"
+        },
+        {
+          "text": "Gaetz",
+          "mode": "forms"
+        },
+        {
+          "text": "Giuliani",
+          "mode": "forms"
+        },
+        {
+          "text": "Hegseth",
+          "mode": "forms"
+        },
+        {
+          "text": "Ivanka",
+          "mode": "forms"
+        },
+        {
+          "text": "Kennedy Jr",
+          "mode": "forms"
+        },
+        {
+          "text": "Kushner",
+          "mode": "forms"
+        },
+        {
+          "text": "Leavitt",
+          "mode": "forms"
+        },
+        {
+          "text": "Macron",
+          "mode": "forms"
+        },
+        {
+          "text": "Musk",
+          "mode": "forms"
+        },
+        {
+          "text": "Netanjahu",
+          "mode": "forms"
+        },
+        {
+          "text": "Netanyahu",
+          "mode": "forms"
+        },
+        {
+          "text": "Noem",
+          "mode": "forms"
+        },
+        {
+          "text": "Orbán",
+          "mode": "forms"
+        },
+        {
+          "text": "Pam Bondi",
+          "mode": "forms"
+        },
+        {
+          "text": "Peter Thiel",
+          "mode": "forms"
+        },
+        {
+          "text": "Putin",
+          "mode": "forms"
+        },
+        {
+          "text": "Ramaswamy",
+          "mode": "forms"
+        },
+        {
+          "text": "RFK",
+          "mode": "forms"
+        },
+        {
+          "text": "Rubio",
+          "mode": "forms"
+        },
+        {
+          "text": "Selenskij",
+          "mode": "forms"
+        },
+        {
+          "text": "Selenskyi",
+          "mode": "forms"
+        },
+        {
+          "text": "Selenskyj",
+          "mode": "forms"
+        },
+        {
+          "text": "Susie Wiles",
+          "mode": "forms"
+        },
+        {
+          "text": "Trump",
+          "mode": "forms"
+        },
+        {
+          "text": "Trump Jr",
+          "mode": "forms"
+        },
+        {
+          "text": "Tucker Carlson",
+          "mode": "forms"
+        },
+        {
+          "text": "Vance",
+          "mode": "forms"
+        },
+        {
+          "text": "Vought",
+          "mode": "forms"
+        },
+        {
+          "text": "Zelensky",
+          "mode": "forms"
+        }
+      ]
+    },
+    {
+      "id": "erw-historisch",
+      "name": "Erwähnungen: Historische Personen",
+      "description": "Blendet Beiträge aus, in denen diese Personen genannt werden, auch Berichte über sie. Unverwechselbare Nachnamen reichen.",
+      "default": true,
+      "words": [
+        {
+          "text": "Hitler",
+          "mode": "forms"
+        }
+      ]
+    }
+  ]
+}
