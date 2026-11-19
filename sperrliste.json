@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "version": "2026.11.19.1717",
+  "version": "2026.11.19.1731",
   "name": "Zentrale Sperrliste von Feedoase (Startfassung)",
   "categories": {
     "partei": "Parteien",
@@ -100,6 +100,21 @@
       ]
     },
     {
+      "id": "intouch",
+      "name": "InTouch",
+      "category": "medium",
+      "keys": [],
+      "namePatterns": [
+        {
+          "pattern": "^InTouch\\b",
+          "flags": "i"
+        }
+      ],
+      "domains": [
+        "intouch.wunderweib.de"
+      ]
+    },
+    {
       "id": "politico",
       "name": "POLITICO",
       "category": "medium",
@@ -114,6 +129,21 @@
         "politico.com",
         "politico.eu",
         "politico.de"
+      ]
+    },
+    {
+      "id": "promiflash",
+      "name": "Promiflash",
+      "category": "medium",
+      "keys": [],
+      "namePatterns": [
+        {
+          "pattern": "^Promiflash\\b",
+          "flags": "i"
+        }
+      ],
+      "domains": [
+        "promiflash.de"
       ]
     },
     {
@@ -1700,29 +1730,12 @@
       ]
     },
     {
-      "id": "p-guenther-jauch",
-      "name": "Günther Jauch",
-      "category": "fernsehen",
-      "names": [
-        "Günther Jauch"
-      ]
-    },
-    {
       "id": "p-harald-krassnitzer",
       "name": "Harald Krassnitzer",
       "category": "fernsehen",
       "names": [
         "Harald Krassnitzer"
       ]
-    },
-    {
-      "id": "p-harald-schmidt",
-      "name": "Harald Schmidt",
-      "category": "fernsehen",
-      "names": [
-        "Harald Schmidt"
-      ],
-      "verifiedOnly": true
     },
     {
       "id": "p-heidi-klum",
@@ -1755,6 +1768,22 @@
       "names": [
         "Oliver Pocher"
       ]
+    },
+    {
+      "id": "seinfeld",
+      "name": "Seinfeld",
+      "category": "fernsehen",
+      "keys": [],
+      "names": [
+        "Jerry Seinfeld"
+      ],
+      "namePatterns": [
+        {
+          "pattern": "^Seinfeld\\b",
+          "flags": "i"
+        }
+      ],
+      "domains": []
     },
     {
       "id": "p-thomas-gottschalk",
@@ -1927,6 +1956,14 @@
       ]
     },
     {
+      "id": "p-patricia-blanco",
+      "name": "Patricia Blanco",
+      "category": "boulevard",
+      "names": [
+        "Patricia Blanco"
+      ]
+    },
+    {
       "id": "p-prinz-frederic-von-anhalt",
       "name": "Prinz Frédéric von Anhalt",
       "category": "boulevard",
@@ -2059,6 +2096,14 @@
       ]
     },
     {
+      "id": "p-logan-paul",
+      "name": "Logan Paul",
+      "category": "influencer",
+      "names": [
+        "Logan Paul"
+      ]
+    },
+    {
       "id": "p-montanablack",
       "name": "MontanaBlack",
       "category": "influencer",
@@ -2100,6 +2145,14 @@
       ]
     },
     {
+      "id": "p-fler",
+      "name": "Fler",
+      "category": "musik",
+      "names": [
+        "Fler"
+      ]
+    },
+    {
       "id": "p-gil-ofarim",
       "name": "Gil Ofarim",
       "category": "musik",
@@ -2132,6 +2185,14 @@
       ]
     },
     {
+      "id": "p-kollegah",
+      "name": "Kollegah",
+      "category": "musik",
+      "names": [
+        "Kollegah"
+      ]
+    },
+    {
       "id": "p-michael-wendler",
       "name": "Michael Wendler",
       "category": "musik",
@@ -2145,6 +2206,14 @@
       "category": "musik",
       "names": [
         "Pietro Lombardi"
+      ]
+    },
+    {
+      "id": "p-roberto-blanco",
+      "name": "Roberto Blanco",
+      "category": "musik",
+      "names": [
+        "Roberto Blanco"
       ]
     },
     {
@@ -2228,6 +2297,16 @@
         "Rainer Wendt"
       ],
       "verifiedOnly": true
+    },
+    {
+      "id": "p-alexander-lukaschenko",
+      "name": "Alexander Lukaschenko",
+      "category": "international",
+      "names": [
+        "Alexander Lukaschenko",
+        "Alexander Lukashenko",
+        "Aljaksandr Lukaschenka"
+      ]
     },
     {
       "id": "p-benjamin-netanjahu",
@@ -3426,19 +3505,11 @@
           "mode": "forms"
         },
         {
-          "text": "Günther Jauch",
-          "mode": "forms"
-        },
-        {
           "text": "Harald Krassnitzer",
           "mode": "forms"
         },
         {
           "text": "Heidi Klum",
-          "mode": "forms"
-        },
-        {
-          "text": "Jauch",
           "mode": "forms"
         },
         {
