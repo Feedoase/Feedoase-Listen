@@ -1,6 +1,6 @@
 # Feedoase: Zentrale Sperrliste
 
-Hier liegt die gemeinsame Sperrliste der Browsererweiterung **Feedoase**. Feedoase blendet in sozialen Netzwerken Beiträge und Kommentare aus, die man nicht sehen möchte. Derzeit funktioniert das auf Facebook und Instagram, TikTok ist vorbereitet.
+Hier liegt die gemeinsame Sperrliste der Browsererweiterung **Feedoase**. Feedoase blendet in sozialen Netzwerken Beiträge und Kommentare aus, die man nicht sehen möchte. Derzeit funktioniert das auf Facebook, Instagram und TikTok.
 
 Die Liste steht in einer einzigen Datei: `sperrliste.json`.
 
@@ -61,6 +61,10 @@ Auf instagram.com funktioniert es wie auf Facebook:
 Ein Ausschnitt aus einem echten Instagram-Feed mit Feedoase: Von 17 Beiträgen sind 16 ausgeblendet, 14 davon als KI-Inhalt, einer wegen einer Erwähnung und einer über die Zentrale Sperrliste. Ohne Feedoase stünden sie alle im Feed.
 
 ![Instagram-Feed mit Feedoase: 16 graue Leisten, darunter 14 KI-Inhalte](bilder/instagram-feed.png)
+
+### TikTok
+
+Auf tiktok.com läuft immer nur ein Video. Ist es gesperrt, deckt Feedoase es ab, hält es an und springt nach einem kurzen Moment zum nächsten Video. Scrollt man zurück, steht dort die graue Leiste mit dem Grund und „Anzeigen“. Das ⛔ steht neben dem Namen des Kontos in der Leiste neben dem Video und bei Kommentaren. Werbung („Anzeige“) und KI‑Kennzeichnungen werden wie auf den anderen Plattformen erkannt. LIVE‑Übertragungen und die TikTok‑App auf dem Handy werden nicht gefiltert.
 
 ### Fenster hinter dem Symbol
 
